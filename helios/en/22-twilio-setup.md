@@ -2,85 +2,83 @@
 title: "Twilio Setup (WhatsApp + Voice)"
 ---
 
+## Objective
 
-## Objetivo
+Guide the basic configuration of Twilio for WhatsApp and Voice on Helios.
 
-Guiar la configuracion basica de Twilio para WhatsApp y Voice en Helios.
+## Requirements
 
-## Requisitos
+- Active Twilio account
+- Access to Twilio Console
 
-- Cuenta Twilio activa
-- Acceso a Twilio Console
-
-## Datos que necesitas
+## Data you need
 
 - Account SID
-- Auth Token
-- Numero WhatsApp (sandbox o productivo)
-- Numero telefonico (voice)
+-Auth Token
+- WhatsApp number (sandbox or productive)
+- Telephone number (voice)
 
-## Paso 1: Crear cuenta y obtener credenciales
+## Step 1: Create account and obtain credentials
 
-1. Entra a https://www.twilio.com/try-twilio
-2. Completa el registro y verifica telefono.
-3. En el Dashboard copia:
-   - Account SID (empieza con AC)
+1. Go to https://www.twilio.com/try-twilio
+2. Complete the registration and verify phone number.
+3. In the Dashboard copy:
+   - Account SID (starts with AC)
    - Auth Token (32 chars)
 
-## Paso 2: Guardar Twilio en Helios
+## Step 2: Save Twilio to Helios
 
-1. Ve a /app/{tenant}/integrations.
-2. En Twilio (Voice & WhatsApp) pega Account SID y Auth Token.
-3. Pulsa Save Twilio Credentials.
+1. Go to /app/{tenant}/integrations.
+2. In Twilio (Voice & WhatsApp) paste Account SID and Auth Token.
+3. Tap Save Twilio Credentials.
 
-## Paso 3: WhatsApp (sandbox o produccion)
+## Step 3: WhatsApp (sandbox or production)
 
-### Sandbox (pruebas)
+### Sandbox (tests)
 
-1. En Twilio Console: Messaging -> Try it out -> Send a WhatsApp message.
-2. Conecta tu numero personal siguiendo el codigo del sandbox.
-3. Copia el WhatsApp Sandbox Number.
+1. In Twilio Console: Messaging -> Try it out -> Send a WhatsApp message.
+2. Connect your personal number following the sandbox code.
+3. Copy the WhatsApp Sandbox Number.
 
-### Produccion
+### Production
 
-1. En Twilio Console: Messaging -> Senders -> WhatsApp Senders.
-2. Solicita acceso y completa verificacion.
-3. Una vez aprobado, usa tu numero productivo.
+1. In Twilio Console: Messaging -> Senders -> WhatsApp Senders.
+2. Request access and complete verification.
+3. Once approved, use your productive number.
 
-### Webhook de WhatsApp
+### WhatsApp Webhook
 
-Configura el webhook en Twilio:
+Set up the webhook in Twilio:
 
 - URL: https://TU_DOMINIO.com/api/whatsapp/webhook
 - Method: POST
 
-## Paso 4: Voice (telefonia)
+## Step 4: Voice (telephony)
 
-1. Compra o usa un numero en Twilio -> Phone Numbers.
-2. En la configuracion del numero:
+1. Buy or use a number in Twilio -> Phone Numbers.
+2. In the number configuration:
    - Voice webhook URL: https://TU_DOMINIO.com/api/voice/webhook
    - Method: POST
-   - (Opcional) Status callback: https://TU_DOMINIO.com/api/voice/status-callback
+   - (Optional) Status callback: https://TU_DOMINIO.com/api/voice/status-callback
 
-## Paso 5: Conectar numero en Helios
+## Step 5: Connect number in Helios
 
 - WhatsApp: /app/{tenant}/whatsapp -> Connect New Number
 - Voice: /app/{tenant}/voice-agents -> Create Voice Agent
 
-## Buenas practicas
+## Good practices
 
-- Usa un numero separado para pruebas y produccion.
-- Verifica que los webhooks respondan 200.
-- Revisa logs si no llegan mensajes o llamadas.
+- Use a separate number for testing and production.
+- Verify that webhooks respond 200.
+- Check logs if messages or calls do not arrive.
 
-## Errores comunes
+## Common errors
 
-- Webhook no llega: URL incorrecta o sin HTTPS.
-- Invalid signature: revisa Auth Token guardado.
-- Numero no aparece: revisa que este activo en Twilio.
+- Webhook does not arrive: incorrect URL or without HTTPS.
+- Invalid signature: Check saved Auth Token.
+- Number does not appear: check that it is active in Twilio.
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura del Twilio Console con Account SID/Auth Token.
-- Captura de configuracion de webhook.
-
+- Capture of the Twilio Console with Account SID/Auth Token.
+- Webhook configuration capture.

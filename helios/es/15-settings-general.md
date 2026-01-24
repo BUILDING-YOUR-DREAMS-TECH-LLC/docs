@@ -1,7 +1,6 @@
 ---
-title: "Settings (General)"
+title: "Configuración (General)"
 ---
-
 
 ## Objetivo
 

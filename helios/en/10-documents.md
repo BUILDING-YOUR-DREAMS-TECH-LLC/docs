@@ -2,76 +2,75 @@
 title: "Documents"
 ---
 
+## Objective
 
-## Objetivo
+Manage documents for RAG (knowledge base) used by agents.
 
-Gestionar documentos para RAG (knowledge base) usados por los agents.
-
-## Acceso
+## Access
 
 Sidebar -> Documents
-Ruta: /app/{tenant}/documents
+Path: /app/{tenant}/documents
 
 ## Roles
 
 - owner, admin, agent
 
-## Requisitos previos
+## Prerequisites
 
-- Integrations: Google AI API Key (requerido para Google File Search).
-- Email verificado: requerido para subir documentos.
+- Integrations: Google AI API Key (required for Google File Search).
+- Verified email: required to upload documents.
 
-## Subir un documento (Upload Document)
+## Upload a document (Upload Document)
 
-Paso a paso:
+Step by step:
 
-1. Pulsa Upload Document.
-2. Arrastra o selecciona un archivo.
-3. Completa los campos.
-4. Pulsa Upload Document.
+1. Press Upload Document.
+2. Drag or select a file.
+3. Complete the fields.
+4. Press Upload Document.
 
-Tipos soportados:
+Supported types:
 
 - PDF, TXT, MD, DOCX
-- Max 10 MB
+- Max 10MB
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Document File | Si | archivo | FAQ.pdf | Max 10 MB |
-| Display Name | No | texto | FAQ Helios ES | Nombre visible |
-| Description | No | texto | Use this doc for privacy | Indica cuando usar |
-| Document Type | Si | seleccion | general | Ajusta chunking |
+| Document File | Yes | file | FAQ.pdf | Max 10MB |
+| Display Name | No | text | FAQ Helios EN | Display name |
+| Description | No | text | Use this doc for privacy | Indicates when to use |
+| Document Type | Yes | selection | general | Adjust chunking |
 
-Document Type y uso:
+Document Type and usage:
 
-- general: balanceado
-- legal: chunks pequenos
-- technical: chunks mas grandes
-- faq: chunks muy pequenos
+- overall: balanced
+- legal: small chunks
+- technical: larger chunks
+- faq: very small chunks
 
-## Estados del documento
+## Document States
 
-- Ready
+-Ready
 - Processing
-- Failed (ver error)
+- Failed (see error)
 
-## Eliminar documento
+## Delete document
 
-En la lista, pulsa el icono de delete y confirma.
+In the list, press the delete icon and confirm.
 
-## Buenas practicas
+## Good practices
 
-- Usa nombres claros y consistentes.
-- Define Description para guiar al agent.
-- Divide documentos largos por tema.
+- Use clear and consistent names.
+- Define Description to guide the agent.
+- Split long documents by topic.
 
-## Relacionados
+## Related
 
 - 03-agents.md (RAG)
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura del modal Upload Document.
-- Captura de la lista con estados Ready/Processing.
+- Capture of the Upload Document modal.
+- Capture of the list with Ready/Processing states.

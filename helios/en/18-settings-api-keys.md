@@ -1,59 +1,57 @@
 ---
-title: "Settings - API Keys (BYOK)"
+title: "API Keys (BYOK)"
 ---
 
+## Objective
 
-## Objetivo
+Save your own API keys for OpenAI and Google AI.
 
-Guardar tus propias API keys para OpenAI y Google AI.
-
-## Acceso
+## Access
 
 Settings -> API Keys
-Ruta: /app/{tenant}/settings/api-keys
+Path: /app/{tenant}/settings/api-keys
 
 ## Roles
 
 - owner, admin
 
-## Guardar OpenAI API Key
+## Save OpenAI API Key
 
-1. En OpenAI API Key, pega tu key.
-2. Pulsa Save & Verify.
-3. Verifica el estado (Verified/Unverified).
+1. In OpenAI API Key, paste your key.
+2. Press Save & Verify.
+3. Check the status (Verified/Unverified).
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| OpenAI API Key | Si | sk-... | sk-xxxx | Se guarda cifrada |
+| OpenAI API Key | Yes | sk-... | sk-xxxx | It is saved encrypted |
 
-## Guardar Google AI API Key
+## Save Google AI API Key
 
-1. En Google AI API Key, pega tu key.
-2. Pulsa Save & Verify.
+1. In Google AI API Key, paste your key.
+2. Press Save & Verify.
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Google AI API Key | Si | AIza... | AIza... | Se guarda cifrada |
+| Google AI API Key | Yes | AIza... | AIza... | It is saved encrypted |
 
-## Eliminar key
+## Delete key
 
-- Usa el icono de trash en la key.
+- Use the trash icon on the key.
 
-## Buenas practicas
+## Good practices
 
-- Usa keys de produccion separadas de pruebas.
-- Configura limites de gasto en el proveedor.
+- Use production keys separate from tests.
+- Set spending limits on the supplier.
 
-## Relacionados
+## Related
 
 - 08-integrations.md
 - 03-agents.md
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura de API Keys con status Verified.
-
+- Capture of API Keys with Verified status.

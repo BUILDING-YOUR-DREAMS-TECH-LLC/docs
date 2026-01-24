@@ -2,63 +2,61 @@
 title: "Contacts"
 ---
 
+## Objective
 
-## Objetivo
+Manage contacts and leads so that agents can consult and update them.
 
-Gestionar contactos y leads para que los agents puedan consultarlos y actualizarlos.
-
-## Acceso
+## Access
 
 Sidebar -> Contacts
-Ruta: /app/{tenant}/contacts
+Path: /app/{tenant}/contacts
 
 ## Roles
 
 - owner, admin, agent
 
-## Crear contacto (Add Contact)
+## Create contact (Add Contact)
 
-Paso a paso:
+Step by step:
 
-1. Pulsa Add Contact.
-2. Completa el formulario.
-3. Pulsa Create Contact.
+1. Press Add Contact.
+2. Complete the form.
+3. Press Create Contact.
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Name | Si | texto | John Doe | - |
-| Status | No | lead/active/customer | lead | Estado del contacto |
-| Email | No | email valido | john@acme.com | - |
-| Phone | No | texto | +1 555 123 4567 | - |
-| Company | No | texto | Acme Inc. | - |
-| Job Title | No | texto | Sales Manager | - |
-| Notes | No | texto | Cliente VIP | - |
+| Name | Yes | text | John Doe | - |
+| Status | No | lead/active/customer | lead | Contact status |
+| Email | No | valid email | john@acme.com | - |
+| Telephone | No | text | +1 555 123 4567 | - |
+| Company | No | text | Acme Inc. | - |
+| Job Title | No | text | Sales Manager | - |
+| Notes | No | text | VIP Client | - |
 
-## Editar contacto
+## Edit contact
 
-1. En la lista, abre el menu (tres puntos).
-2. Pulsa Edit.
-3. Ajusta campos y pulsa Save Changes.
+1. In the list, open the menu (three dots).
+2. Press Edit.
+3. Adjust fields and press Save Changes.
 
-## Archivar contacto
+## Archive contact
 
-1. En la lista, abre el menu.
-2. Pulsa Archive.
-3. Confirma.
+1. In the list, open the menu.
+2. Press Archive.
+3. Confirm.
 
-## Buscar contactos
+## Search contacts
 
-- Usa el buscador por nombre, email, telefono o company.
+- Use the search engine by name, email, phone or company.
 
-## Buenas practicas
+## Good practices
 
-- Mantener status actualizado (lead, active, customer).
-- Completar Phone y Email para contacto rapido.
+- Maintain updated status (lead, active, customer).
+- Complete Phone and Email for quick contact.
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura del modal Add Contact.
-- Captura del listado con filtros.
-
+- Capture of the Add Contact modal.
+- Capture of the list with filters.

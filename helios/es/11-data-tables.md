@@ -1,7 +1,6 @@
 ---
-title: "Data Tables"
+title: "Tablas de datos"
 ---
-
 
 ## Objetivo
 

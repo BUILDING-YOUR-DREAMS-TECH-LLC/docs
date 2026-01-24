@@ -1,117 +1,115 @@
 ---
-title: "Acceso y autenticacion"
+title: "Authentication & Access"
 ---
 
+## Objective
 
-## Objetivo
+Explain how to enter the portal, create an account, accept invitations and recover password.
 
-Explicar como entrar al portal, crear cuenta, aceptar invitaciones y recuperar contrasena.
-
-## Rutas clave
+## Key routes
 
 - /login
-- /pricing (seleccion de plan)
+- /pricing (plan selection)
 - /signup?plan=...
 - /auth/complete?plan=...
 - /forgot-password
 - /reset-password
 - /auth/invite/{token}
 
-## Iniciar sesion
+## Login
 
-Pasos:
+Steps:
 
-1. Ve a /login.
-2. Elige una opcion:
+1. Go to /login.
+2. Choose an option:
    - Continue with Google
    - Email + Password
-3. Si usas Email + Password, completa los campos y pulsa Sign in.
+3. If you use Email + Password, complete the fields and press Sign in.
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Email | Si | email valido | name@company.com | Se usa para autenticacion |
-| Password | Si | minimo 8 caracteres | ******** | - |
+| Email | Yes | valid email | name@company.com | It is used for authentication |
+| Password | Yes | minimum 8 characters | ******** | - |
 
-## Crear cuenta (signup)
+## Create account (signup)
 
-Flujo recomendado:
+Recommended flow:
 
-1. Ve a /pricing y elige un plan.
-2. La pagina te lleva a /signup?plan=PLAN.
-3. Completa el formulario y pulsa Create account.
+1. Go to /pricing and choose a plan.
+2. The page takes you to /signup?plan=PLAN.
+3. Complete the form and press Create account.
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Full Name | Si | texto libre | John Doe | Nombre del propietario inicial |
-| Email | Si | email valido | name@company.com | Email principal |
-| Company Name | Si | texto libre | Acme Inc. | Nombre del tenant |
-| Subdomain | Si | minusculas, numeros y guiones | acme | Se usa para la URL del workspace |
-| Password | Si | minimo 8 caracteres | ******** | - |
+| Full Name | Yes | free text | John Doe | Initial owner name |
+| Email | Yes | valid email | name@company.com | Main email |
+| Company Name | Yes | free text | Acme Inc. | Tenant name |
+| Subdomain | Yes | lowercase, numbers and hyphens | Acme | Used for the workspace URL |
+| Password | Yes | minimum 8 characters | ******** | - |
 
-Notas:
+Notes:
 
-- Si eliges Google OAuth, el flujo puede redirigir a /auth/complete para terminar datos del tenant.
-- El subdomain debe ser unico.
+- If you choose Google OAuth, the flow can redirect to /auth/complete to complete tenant data.
+- The subdomain must be unique.
 
-## Completar cuenta (OAuth)
+## Complete account (OAuth)
 
-Si entras con Google y no existe tenant, se muestra /auth/complete.
+If you log in with Google and there is no tenant, /auth/complete is displayed.
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Company Name | Si | texto libre | Acme Inc. | Nombre del tenant |
-| Subdomain | Si | minusculas, numeros y guiones | acme | URL del workspace |
+| Company Name | Yes | free text | Acme Inc. | Tenant name |
+| Subdomain | Yes | lowercase, numbers and hyphens | Acme | Workspace URL |
 
-## Verificacion de email
+## Email verification
 
-Algunas acciones requieren email verificado (por ejemplo: crear agents o subir documents). Si ves un mensaje de verificacion:
+Some actions require verified email (for example: creating agents or uploading documents). If you see a verification message:
 
-1. Abre el correo de verificacion.
-2. Haz click en el enlace.
-3. Vuelve al portal y repite la accion.
+1. Open the verification email.
+2. Click on the link.
+3. Return to the portal and repeat the action.
 
-## Invitaciones de equipo
+## Team invitations
 
-Si recibes un enlace de invitacion:
+If you receive an invitation link:
 
-1. Abre /auth/invite/{token}.
-2. Completa el formulario para crear tu usuario.
-3. Al finalizar, se abre el Dashboard del tenant.
+1. Open /auth/invite/{token}.
+2. Complete the form to create your user.
+3. Upon completion, the tenant's Dashboard opens.
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Nombre Completo | Si | texto libre | Juan Perez | Debe tener al menos 2 caracteres |
-| Password | Si | minimo 8 caracteres | ******** | - |
-| Confirm Password | Si | igual al password | ******** | - |
+| Full Name | Yes | free text | Juan Perez | Must be at least 2 characters |
+| Password | Yes | minimum 8 characters | ******** | - |
+| Confirm Password | Yes | equal to password | ******** | - |
 
-## Recuperar contrasena
+## Recover password
 
-1. Ve a /forgot-password.
-2. Escribe tu Email y pulsa Send reset link.
-3. Abre el correo y entra al enlace.
-4. En /reset-password define la nueva contrasena.
+1. Go to /forgot-password.
+2. Write your Email and press Send reset link.
+3. Open the email and enter the link.
+4. In /reset-password define the new password.
 
-Campos de reset:
+Reset fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| New Password | Si | minimo 8 caracteres | ******** | - |
-| Confirm Password | Si | igual al password | ******** | - |
+| New Password | Yes | minimum 8 characters | ******** | - |
+| Confirm Password | Yes | equal to password | ******** | - |
 
-## Cerrar sesion
+## Log out
 
-Usa el menu de usuario en el sidebar (o la opcion Sign out) para cerrar sesion.
+Use the user menu in the sidebar (or the Sign out option) to log out.
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura del formulario de login con opciones Google y Email.
-- Captura del formulario de signup con subdomain.
-
+- Capture of the login form with Google and Email options.
+- Capture of the signup form with subdomain.

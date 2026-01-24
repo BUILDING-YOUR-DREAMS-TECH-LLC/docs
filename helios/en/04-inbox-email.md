@@ -2,125 +2,124 @@
 title: "Inbox (Email)"
 ---
 
+## Objective
 
-## Objetivo
+Manage incoming and outgoing emails with AI and human approval (human-in-the-loop).
 
-Gestionar emails entrantes y salientes con IA y aprobacion humana (human-in-the-loop).
-
-## Acceso
+## Access
 
 Sidebar -> Inbox
-Rutas:
+Routes:
 
-- /app/{tenant}/inbox (vista principal)
-- /app/{tenant}/inbox/all (todas las cuentas)
-- /app/{tenant}/inbox/{credentialId} (una cuenta)
-- /app/{tenant}/inbox/message/{id} (detalle del email)
+- /app/{tenant}/inbox (main view)
+- /app/{tenant}/inbox/all (all accounts)
+- /app/{tenant}/inbox/{credentialId} (one account)
+- /app/{tenant}/inbox/message/{id} (email details)
 
 ## Roles
 
 - owner, admin, agent
 
-## Requisitos previos
+## Prerequisites
 
-- Al menos un agent con canal Email habilitado.
-- Una cuenta de Email conectada (Gmail/Outlook OAuth o SMTP/IMAP).
-- Integrations con OpenAI o Google si el plan no incluye modelos.
+- At least one agent with Email channel enabled.
+- A connected Email account (Gmail/Outlook OAuth or SMTP/IMAP).
+- Integrations with OpenAI or Google if the plan does not include models.
 
-## Conectar una cuenta de email
+## Connect an email account
 
-En Inbox, pulsa Connect Email Account (o Email Accounts).
+In Inbox, tap Connect Email Account (or Email Accounts).
 
-Opciones:
+Options:
 
 1) Gmail/Workspace (OAuth)
-2) Outlook / Microsoft 365 (OAuth)
-3) Custom SMTP/IMAP
+2) Outlook/Microsoft 365 (OAuth)
+3)Custom SMTP/IMAP
 
 ### Gmail (OAuth)
 
-Pasos:
+Steps:
 
-1. En el panel de Email Accounts, elige Gmail.
-2. Selecciona un agent en Assign agent.
-3. Pulsa Connect Gmail (OAuth).
-4. Completa el flujo de Google y vuelve al portal.
+1. In the Email Accounts panel, choose Gmail.
+2. Select an agent in Assign agent.
+3. Press Connect Gmail (OAuth).
+4. Complete the Google Flow and return to the portal.
 
 ### Outlook (OAuth)
 
-Pasos:
+Steps:
 
-1. En el panel de Email Accounts, elige Outlook.
-2. Selecciona un agent en Assign agent.
-3. Pulsa Connect Outlook (OAuth).
-4. Completa el flujo de Microsoft y vuelve al portal.
+1. In the Email Accounts panel, choose Outlook.
+2. Select an agent in Assign agent.
+3. Press Connect Outlook (OAuth).
+4. Complete the Microsoft flow and return to the portal.
 
 ### SMTP/IMAP (Custom)
 
-Pasos:
+Steps:
 
-1. Pulsa Add via SMTP/IMAP.
-2. Completa Account Information y SMTP Settings.
-3. (Opcional) Completa IMAP Settings para emails entrantes.
-4. Pulsa Add Account.
+1. Press Add via SMTP/IMAP.
+2. Complete Account Information and SMTP Settings.
+3. (Optional) Complete IMAP Settings for incoming emails.
+4. Press Add Account.
 
-Campos: Account Information
+Fields: Account Information
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Email Address | Si | email valido | support@acme.com | Cuenta conectada |
-| Display Name | No | texto | Acme Support | Nombre visible |
-| Signature | No | texto largo | Regards, Acme | Firma de la cuenta |
-| Auto-Reply Language | Si | codigo idioma o auto | auto | Auto = espejo del remitente |
-| Assign agent | Si | seleccion | Support Agent | Requerido para IA |
-| Generate AI Responses | No | checkbox | ON/OFF | Crea borradores IA |
+| Email Address | Yes | valid email | support@acme.com | Connected account |
+| Display Name | No | text | Acme Support | Display name |
+| Signature | No | long text | Regards, Acme | Account signature |
+| Auto-Reply Language | Yes | language or auto code | car | Auto = sender mirror |
+| Assign agent | Yes | selection | Support Agent | Required for AI |
+| Generate AI Responses | No | checkbox | ON/OFF | Create AI drafts |
 
-Campos: SMTP Settings (Outbound - Required)
+Fields: SMTP Settings (Outbound - Required)
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| SMTP Host | Si | hostname | smtp.gmail.com | - |
-| Port | Si | numero | 587 | - |
-| SMTP Username | Si | texto | user@acme.com | - |
-| SMTP Password | Si | texto | ******** | - |
-| Use TLS/SSL | No | checkbox | ON | Recomendado |
+| SMTP Host | Yes | hostname | smtp.gmail.com | - |
+| Port | Yes | number | 587 | - |
+| SMTP Username | Yes | text | user@acme.com | - |
+| SMTP Password | Yes | text | ******** | - |
+| Use TLS/SSL | No | checkbox | ON | Recommended |
 
-Campos: IMAP Settings (Inbound - Optional)
+Fields: IMAP Settings (Inbound - Optional)
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| IMAP Host | No | hostname | imap.gmail.com | Requerido para recibir |
-| Port | No | numero | 993 | - |
-| IMAP Username | No | texto | user@acme.com | - |
-| IMAP Password | No | texto | ******** | - |
-| Use TLS/SSL | No | checkbox | ON | Recomendado |
+| IMAP Host | No | hostname | imap.gmail.com | Required to receive |
+| Port | No | number | 993 | - |
+| IMAP Username | No | text | user@acme.com | - |
+| IMAP Password | No | text | ******** | - |
+| Use TLS/SSL | No | checkbox | ON | Recommended |
 
-## Gestionar cuentas conectadas
+## Manage connected accounts
 
-En la lista de cuentas puedes:
+In the account list you can:
 
-- Verify: prueba conectividad.
-- Test email: envia correo de prueba.
+- Verify: test connectivity.
+- Test email: send test email.
 - Toggle Active/Inactive.
-- Assign Agent.
+-Assign Agent.
 - Delete.
-- Edit (abre Email Configuration).
+- Edit (opens Email Configuration).
 
-## Email Configuration (por cuenta)
+## Email Configuration (per account)
 
-Ruta rapida: Inbox -> card de cuenta -> Edit
+Quick route: Inbox -> account card -> Edit
 
 ### Account Configuration
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| From Name | No | texto | Helios Support | Nombre remitente |
-| Assigned Agent | Si | seleccion | Support Agent | Necesario para IA |
-| Account Signature | No | texto largo | Regards, {agent_name} | Se aplica al enviar |
+| From Name | No | text | Helios Support | Sender name |
+| Assigned Agent | Yes | selection | Support Agent | Required for AI |
+| Account Signature | No | long text | Regards, {agent_name} | Applies when sending |
 
-Variables de firma disponibles:
+Available signature variables:
 
 - {sender_name}
 - {agent_name}
@@ -128,62 +127,60 @@ Variables de firma disponibles:
 - {account_email}
 - {sender_role}
 
-### AI Response Settings
-
-- Generate AI Responses: crea borradores.
-- Send Automatically: envia sin aprobacion.
-- Agent Signature: firma del agent.
-- Auto-Reply Language: idioma de respuestas auto.
+### AI Response Settings- Generate AI Responses: create drafts.
+- Send Automatically: send without approval.
+- Agent Signature: signature of the agent.
+- Auto-Reply Language: auto response language.
 - Require Manual Review For: High / Urgent.
-- Auto-Reply Guard: reglas de bloqueo por tokens, dominios y headers.
+- Auto-Reply Guard: blocking rules for tokens, domains and headers.
 
-Campos clave (Auto-Reply Guard):
+Key fields (Auto-Reply Guard):
 
-| Campo | Uso | Ejemplo |
+| Field | Usage | Example |
 | --- | --- | --- |
-| Additional blocked sender tokens | Bloquea remitentes con tokens | noreply, billing |
-| Additional blocked domains | Bloquea dominios | noreply.company.com |
-| Allowed reply domains | Solo responder a dominios | yourcompany.com |
-| Block headers | Bloquea por headers | List-Unsubscribe |
+| Additional blocked sender tokens | Block senders with tokens | noreply, billing |
+| Additional blocked domains | Block domains | noreply.company.com |
+| Allowed reply domains | Only reply to domains | yourcompany.com |
+| Block headers | Block by headers | List-Unsubscribe |
 
 ### Email Categorization
 
-- Lista de categorias activas.
-- Enable dynamic categories.
-- Enable Other category.
+- List of active categories.
+-Enable dynamic categories.
+-Enable Other category.
 - Sync categories to Gmail labels / Outlook categories.
-- Archive on label sync (solo Gmail).
+- Archive on label sync (Gmail only).
 
 ### Daily Summary Email
 
-Configura un resumen diario de actividad.
+Set up a daily activity summary.
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Enable Daily Summary | No | checkbox | ON | Activa resumen |
-| Send Time | Si (si habilitado) | HH:MM | 08:00 | Hora local |
-| Timezone | Si (si habilitado) | timezone | America/Bogota | - |
+| Enable Daily Summary | No | checkbox | ON | Activate summary |
+| Send Time | Yes (if enabled) | HH:MM | 08:00 | Local time |
+| Timezone | Yes (if enabled) | timezone | America/Bogota | - |
 
-## Bandeja de entrada (lista de emails)
+## Inbox (email list)
 
-Funciones principales:
+Main functions:
 
-- Search: busca por remitente, asunto, agent, categoria.
-- Account filter: filtra por cuenta.
+- Search: search by sender, subject, agent, category.
+- Account filter: filter by account.
 - Direction: inbound / outbound.
 - Status: pending, ready_for_review, approved, sent, reviewed, failed, quota_exceeded.
-- Agent filter: all, unassigned, o un agent.
-- Category filter: all, uncategorized, not_analyzed, o una categoria.
-- Sort: Date o Category.
-- Sync: (solo en vista de una cuenta) fuerza sincronizacion.
+- Agent filter: all, unassigned, or an agent.
+- Category filter: all, uncategorized, not_analyzed, or a category.
+- Sort: Date or Category.
+- Sync: (only in single account view) force synchronization.
 
-## Detalle del email
+## Email details
 
-Ruta: /app/{tenant}/inbox/message/{id}
+Path: /app/{tenant}/inbox/message/{id}
 
-Secciones principales:
+Main sections:
 
 1) Subject
 2) Summary (Generate/Refresh summary)
@@ -192,36 +189,35 @@ Secciones principales:
 5) Metadata (Received, Assigned agent, Send using, Signature)
 6) Analysis (Intent, Sentiment, Category, Tags)
 
-Acciones:
+Actions:
 
-- Regenerate Response
+-Regenerate Response
 - No Reply Needed
 - Approve & Send
 - Refresh summary / analysis
 - Reassign agent
-- Elegir cuenta de envio (Send using)
-- Elegir firma (My / Agent / Account / None)
+- Choose shipping account (Send using)
+- Choose signature (My / Agent / Account / None)
 
-Notas importantes:
+Important notes:
 
-- Si Auto-reply blocked, el sistema desactiva IA y pide confirmacion para enviar.
-- Para enviar, el campo de respuesta no debe estar vacio.
+- If Auto-reply blocked, the system deactivates AI and asks for confirmation to send.
+- To send, the response field must not be empty.
 
-## Buenas practicas
+## Good practices
 
-- Asigna un agent a cada cuenta antes de activar IA.
-- Usa categorias claras para clasificacion.
-- Manten reglas de Auto-Reply Guard para evitar respuestas a no-reply.
-- Usa firmas con variables para consistencia.
+- Assign an agent to each account before activating AI.
+- Use clear categories for classification.
+- Maintain Auto-Reply Guard rules to avoid no-reply responses.
+- Use signatures with variables for consistency.
 
-## Errores comunes
+## Common errors
 
-- Reconnect required en Gmail: reconecta el OAuth desde la tarjeta.
-- Verify falla: revisa SMTP/IMAP y credenciales.
-- AI response no aparece: revisa agent y proveedor LLM.
+- Reconnect required in Gmail: reconnect the OAuth from the card.
+- Verify fails: check SMTP/IMAP and credentials.
+- AI response does not appear: check agent and LLM provider.
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura de Email Accounts con opciones Gmail/Outlook/SMTP.
-- Captura del detalle del email con Summary y AI response.
-
+- Capture of Email Accounts with Gmail/Outlook/SMTP options.
+- Capture email details with Summary and AI response.

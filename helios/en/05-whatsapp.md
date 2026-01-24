@@ -2,117 +2,116 @@
 title: "WhatsApp"
 ---
 
+## Objective
 
-## Objetivo
+Connect WhatsApp Business numbers and manage conversations in real time.
 
-Conectar numeros de WhatsApp Business y gestionar conversaciones en tiempo real.
-
-## Acceso
+## Access
 
 Sidebar -> WhatsApp
-Ruta: /app/{tenant}/whatsapp
+Path: /app/{tenant}/whatsapp
 
 ## Roles
 
 - owner, admin, agent
 
-## Requisitos previos
+## Prerequisites
 
-- Integrations: Twilio conectado (recomendado) o Meta Cloud API.
-- Agent con canal WhatsApp habilitado.
+- Integrations: Twilio connected (recommended) or Meta Cloud API.
+- Agent with WhatsApp channel enabled.
 
-## Conectar un numero (Connect New Number)
+## Connect a number (Connect New Number)
 
-Paso a paso:
+Step by step:
 
-1. En WhatsApp, pulsa Connect New Number.
-2. Completa los campos del modal.
-3. Pulsa Connect Number.
+1. In WhatsApp, tap Connect New Number.
+2. Complete the modal fields.
+3. Press Connect Number.
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Display Name | Si | texto | Sales Support | Nombre visible |
-| Assigned Agent | Si (si Active) | seleccion | Support Agent | Debe tener WhatsApp habilitado |
-| Active | No | checkbox | ON | Si esta activo, requiere agent |
+| Display Name | Yes | text | Sales Support | Display name |
+| Assigned Agent | Yes (if Active) | selection | Support Agent | You must have WhatsApp enabled |
+| Active | No | checkbox | ON | If active, requires agent |
 
-### Twilio (recomendado)
+### Twilio (recommended)
 
-- Requiere Twilio conectado en Integrations.
-- Selecciona el numero desde el dropdown de Twilio.
-- Si no aparece, usa entrada manual con formato: whatsapp:+1234567890.
+- Requires Twilio connected in Integrations.
+- Select the number from the Twilio dropdown.
+- If it does not appear, use manual entry with the format: whatsapp:+1234567890.
 
 ### Meta Cloud API (legacy)
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Phone Number ID | Si | texto | 123456789 | Desde Meta Business |
-| Business Account ID | No | texto | 987654321 | Opcional |
-| Access Token | Si | token | EAAG... | Token permanente |
+| Phone Number ID | Yes | text | 123456789 | From Meta Business |
+| Business Account ID | No | text | 987654321 | Optional |
+| Access Token | Yes | token | EAAG... | Permanent token |
 
-## Gestionar numeros conectados
+## Manage connected numbers
 
-En cada card puedes:
+On each card you can:
 
 - Toggle Active/Inactive.
-- Edit (abre modal de edicion).
-- Delete (requiere confirmacion).
+- Edit (opens editing modal).
+- Delete (requires confirmation).
 
-## Conversaciones recientes
+## Recent conversations
 
-En la tabla de conversaciones:
+In the conversation table:
 
-- Click en View Chat para abrir la conversacion.
-- Se muestran status, ultimo mensaje y sentimiento si existe.
+- Click on View Chat to open the conversation.
+- Status, last message and sentiment if it exists are shown.
 
-## Vista de conversacion (WhatsApp chat)
+## Conversation view (WhatsApp chat)
 
-Ruta: /app/{tenant}/whatsapp/{id}
+Path: /app/{tenant}/whatsapp/{id}
 
-Acciones:
+Actions:
 
-- Enviar mensaje (textarea + Send).
-- Close / Archive / Reopen segun estado.
+- Send message (textarea + Send).
+- Close / Archive / Reopen according to status.
 - Toggle AI Active / AI Disabled.
-- Delete (solo admin/owner).
+- Delete (admin/owner only).
 - Generate Insights (sentiment + summary).
 
-Campos clave en la barra lateral (AI Insights):
+Key fields in the sidebar (AI Insights):
 
 - Sentiment Analysis
 - Conversation Summary
 
-## Notificaciones de WhatsApp
+## WhatsApp notifications
 
-Ruta: /app/{tenant}/whatsapp/notifications
+Path: /app/{tenant}/whatsapp/notifications
 
-Funciones:
+Features:
 
-- Ver alertas de escalacion o nuevos mensajes.
-- Mark as read individual o Mark all as read.
-- Abrir la conversacion desde el link.
+- See escalation alerts or new messages.
+- Mark as read individual or Mark all as read.
+- Open the conversation from the link.
 
-## Buenas practicas
+## Good practices
 
-- Asigna un agent antes de activar el numero.
-- Usa Twilio como proveedor principal.
-- Si desactivas AI, la conversacion queda solo para humanos.
+- Assign an agent before activating the number.
+- Use Twilio as primary provider.
+- If you deactivate AI, the conversation is only for humans.
 
-## Errores comunes
+## Common errors
 
-- No aparecen numeros: revisa Twilio en Integrations.
-- Error al enviar: revisa formato del numero y credenciales.
+- Numbers do not appear: check Twilio in Integrations.
+- Error sending: check format of the number and credentials.
 
-## Relacionados
+## Related
 
 - 22-twilio-setup.md
 - 08-integrations.md
 - 03-agents.md
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura del modal Connect New Number (Twilio).
-- Captura de la vista de conversacion con AI Insights.
+- Capture of the Connect New Number modal (Twilio).
+- Capture the conversation view with AI Insights.

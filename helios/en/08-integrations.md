@@ -2,129 +2,127 @@
 title: "Integrations"
 ---
 
+## Objective
 
-## Objetivo
+Connect external services (LLM, mail, Twilio, calendars, webhooks) to enable portal features.
 
-Conectar servicios externos (LLM, correo, Twilio, calendarios, webhooks) para habilitar funciones del portal.
-
-## Acceso
+## Access
 
 Sidebar -> Integrations
-Ruta: /app/{tenant}/integrations
+Path: /app/{tenant}/integrations
 
 ## Roles
 
 - owner, admin, agent
 
-## Integraciones disponibles
+## Integrations available
 
 ### Twilio (Voice & WhatsApp)
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Twilio Account SID | Si | AC... | ACxxxxxxxx | Desde Twilio Console |
-| Twilio Auth Token | Si | 32 chars | ******** | Desde Twilio Console |
+| Twilio Account SID | Yes | AC... | ACxxxxxxxxx | From Twilio Console |
+| Twilio Auth Token | Yes | 32 chars | ******** | From Twilio Console |
 
-Acciones:
+Actions:
 
 - Save Twilio Credentials
 - Disconnect Twilio
 
-### OpenAI
+###OpenAI
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| OpenAI API Key | Si | sk-... | sk-xxxx | Necesario para IA |
+| OpenAI API Key | Yes | sk-... | sk-xxxx | Required for AI |
 
-Acciones:
+Actions:
 
 - Save OpenAI Key
 - Remove OpenAI Key
 
 ### Google AI (Gemini)
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Google AI API Key | Si | AIza... | AIza... | Necesario para RAG |
+| Google AI API Key | Yes | AIza... | AIza... | Required for RAG |
 
-Acciones:
+Actions:
 
 - Save Google AI Key
 - Remove Google AI Key
 
 ### Gmail (Email)
 
-Acciones:
+Actions:
 
-- Connect (abre Settings/Gmail)
-- Manage (si ya esta conectado)
-- Go to Inbox
+- Connect (opens Settings/Gmail)
+- Manage (if already connected)
+-Go to Inbox
 
-Notas:
+Notes:
 
-- Requiere asignar agent antes de conectar.
+- Requires assigning agent before connecting.
 
 ### Google Calendar
 
-Accion:
+Action:
 
 - Connect (OAuth)
 
-### Microsoft 365
+###Microsoft 365
 
-Accion:
+Action:
 
 - Connect (OAuth)
 
 ### Custom Webhooks
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Name | Si | texto | N8N workflow | Nombre interno |
-| Webhook URL | Si | URL | https://... | Endpoint externo |
+| Name | Yes | text | N8N workflow | Internal name |
+| Webhook URL | Yes | URL | https://... | External endpoint |
 
-Acciones:
+Actions:
 
 - Add Webhook
-- Remove
+-Remove
 
 ### ElevenLabs (TTS)
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| ElevenLabs API Key | Si | texto | elevenlabs_... | Para voces premium |
+| ElevenLabs API Key | Yes | text | elevenlabs_... | For premium voices |
 
 ### Bing Web Search
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Bing Web Search API Key | Si | texto | ... | Habilita Web Search |
+| Bing Web Search API Key | Yes | text | ... | Enable Web Search |
 
-## Buenas practicas
+## Good practices
 
-- Guarda Twilio una sola vez y reutiliza en WhatsApp y Voice.
-- Conecta OpenAI o Google antes de crear agents.
-- Usa Webhooks para acciones externas (N8N, Make).
+- Save Twilio once and reuse it in WhatsApp and Voice.
+- Connect OpenAI or Google before creating agents.
+- Use Webhooks for external actions (N8N, Make).
 
-## Relacionados
+## Related
 
 - 22-twilio-setup.md
 - 09-tools.md
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura de la tarjeta Twilio con campos SID/Token.
-- Captura de Webhooks con lista.
-
+- Twilio card capture with SID/Token fields.
+- Capture of Webhooks with list.

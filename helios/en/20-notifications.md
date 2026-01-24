@@ -2,36 +2,34 @@
 title: "Notifications"
 ---
 
+## Objective
 
-## Objetivo
+Review system alerts and channel events.
 
-Revisar alertas del sistema y eventos de canales.
-
-## Acceso
+## Access
 
 Sidebar -> Notifications
-Ruta: /app/{tenant}/notifications
+Path: /app/{tenant}/notifications
 
 ## Roles
 
 - owner, admin, agent, viewer
 
-## Funciones principales
+## Main functions
 
-- Ver notificaciones recientes.
-- Filtros: All / Unread.
-- Search por texto.
-- Filtrar por Module (whatsapp, email, tasks, system).
-- Filtrar por Type.
-- Mark as read (individual) o Mark all as read.
-- Abrir link asociado si existe.
+- View recent notifications.
+- Filters: All / Unread.
+- Search by text.
+- Filter by Module (whatsapp, email, tasks, system).
+- Filter by Type.
+- Mark as read (individual) or Mark all as read.
+- Open associated link if it exists.
 
-## Buenas practicas
+## Good practices
 
-- Revisa Unread diariamente para escalamientos.
-- Usa filtros para aislar un canal.
+- Check Unread daily for escalations.
+- Use filters to isolate a channel.
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura con filtros y lista de notificaciones.
-
+- Capture with filters and notification list.

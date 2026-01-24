@@ -1,7 +1,6 @@
 ---
-title: "Voice Agents"
+title: "Agentes de voz"
 ---
-
 
 ## Objetivo
 

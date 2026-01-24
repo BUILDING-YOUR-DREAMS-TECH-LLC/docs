@@ -1,175 +1,172 @@
 ---
-title: "Agents (AI Agents)"
+title: "AI Agents"
 ---
 
+## Objective
 
-## Objetivo
+Create and configure AI assistants that operate in Email, WhatsApp, Web Chat and Voice. Each agent defines channels, capabilities and AI configuration.
 
-Crear y configurar asistentes de IA que operan en Email, WhatsApp, Web Chat y Voz. Cada agent define canales, capacidades y configuracion de IA.
-
-## Acceso
+## Access
 
 Sidebar -> Agents
-Ruta: /app/{tenant}/agents
+Path: /app/{tenant}/agents
 
 ## Roles
 
 - owner, admin, agent
 
-## Requisitos previos
+## Prerequisites
 
-- Integrations: al menos un proveedor LLM (OpenAI o Google) si tu plan no incluye modelos.
-- Documents: necesarios para habilitar RAG.
-- SQL Tables: necesarias para habilitar SQL.
-- Tools: opcional, solo si quieres acciones externas.
-- Voice: si activas voz, luego debes crear un Voice Agent con numero en el modulo Voice Agents.
-- Email verificado: requerido para crear agents.
+- Integrations: at least one LLM provider (OpenAI or Google) if your plan does not include models.
+- Documents: required to enable RAG.
+- SQL Tables: required to enable SQL.
+- Tools: optional, only if you want external actions.
+- Voice: if you activate voice, then you must create a Voice Agent with a number in the Voice Agents module.
+- Verified email: required to create agents.
 
-## Crear un agent (Create Agent)
+## Create an agent (Create Agent)
 
-Paso a paso:
+Step by step:
 
-1. En Agents, pulsa Create Agent.
-2. Completa los 4 pasos del modal.
+1. Under Agents, tap Create Agent.
+2. Complete the 4 steps of the modal.
 
-### Paso 1: Basic Information
+### Step 1: Basic Information
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Agent Name | Si | texto libre | Customer Support Agent | Nombre visible en el portal |
-| Description | No | texto libre | Responde dudas de soporte | Define tono y rol |
+| Agent Name | Yes | free text | Customer Support Agent | Name visible on the portal |
+| Description | No | free text | Answer support questions | Defines tone and role |
 
-### Paso 2: Configure Channels
+### Step 2: Configure Channels
 
-Selecciona uno o varios canales. Nota: si activas Voice, el formulario desactiva Email/WhatsApp/Web Chat en este paso.
+Select one or more channels. Note: If you enable Voice, the form disables Email/WhatsApp/Web Chat in this step.
 
-- Email: respuestas en Inbox.
-- WhatsApp: conversaciones en modulo WhatsApp.
-- Web Chat: widget web.
-- Voice: telefonia (requiere Voice Agents + Twilio).
+- Email: responses in Inbox.
+- WhatsApp: conversations in WhatsApp module.
+- Web Chat: web widget.
+- Voice: telephony (requires Voice Agents + Twilio).
 
-### Paso 3: Agent Capabilities
+### Step 3: Agent Capabilities
 
-Opciones:
+Options:
 
 - RAG (Google File Search)
-  - Requiere Google AI API Key y documentos subidos.
-  - Debes seleccionar al menos 1 document.
+  - Requires Google AI API Key and uploaded documents.
+  - You must select at least 1 document.
 - SQL Database Access
-  - Requiere tablas en SQL Tables.
-  - Debes seleccionar al menos 1 tabla.
+  - Requires tables in SQL Tables.
+  - You must select at least 1 table.
 - Web Search
-  - Permite consultas externas si tienes Bing Web Search configurado.
-- Tools & Actions
-  - Selecciona tools creados en Tools.
+  - Allow external queries if you have Bing Web Search configured.
+-Tools & Actions
+  - Select tools created in Tools.
 
-Campos y datos (RAG):
+Fields and data (RAG):
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Knowledge Base Documents | Si (si RAG activo) | seleccion multiple | FAQ.pdf | Selecciona documentos relevantes |
+| Knowledge Base Documents | Yes (if RAG active) | multiple selection | FAQ.pdf | Select relevant documents |
 
-Campos y datos (SQL):
+Fields and data (SQL):
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Allowed Tables | Si (si SQL activo) | seleccion multiple | orders, inventory | Limita el acceso del agent |
+| Allowed Tables | Yes (if SQL active) | multiple selection | orders, inventory | Limit agent access |
 
-Campos y datos (Tools):
+Fields and data (Tools):
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Tools | No | seleccion multiple | Create Ticket | Solo tools creados en Tools |
+| Tools | No | multiple selection | Create Ticket | Only tools created in Tools |
 
-### Paso 4: AI Configuration
+### Step 4: AI Configuration
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Provider | Si | dropdown | OpenAI | Depende de tu plan y keys |
-| Model | Si | dropdown | gpt-4o | Algunos modelos requieren BYOK |
-| Temperature | Si | 0.0 - 1.0 | 0.7 | Algunos modelos fijan 1.0 |
-| Max Tokens | Si | numero | 800 | Limitado por el modelo |
-| Top P | Si | 0.0 - 1.0 | 1.0 | Control de sampling |
-| System Prompt | No | texto largo | You are a helpful assistant | Limite de caracteres |
+| Provider | Yes | dropdown | OpenAI | It depends on your plan and keys |
+| Model | Yes | dropdown | gpt-4o | Some models require BYOK |
+| Temperature | Yes | 0.0 - 1.0 | 0.7 | Some models set 1.0 |
+| Max Tokens | Yes | number | 800 | Limited by model |
+| Top P | Yes | 0.0 - 1.0 | 1.0 | Sampling control |
+| SystemPrompt | No | long text | You are a helpful assistant | Character limit |
 
-Acciones:
+Actions:
 
-- Next para avanzar.
-- Create Agent para guardar.
+- Next to advance.
+- Create Agent to save.
 
-## Editar un agent
+## Edit an agent
 
-Ruta: /app/{tenant}/agents/{id}/edit
+Path: /app/{tenant}/agents/{id}/edit
 
-El formulario usa pestanas:
+The form uses tabs:
 
 ### Basic Info
 
 - Agent Name
-- Description
+-Description
 
-### Channels
+###Channels
 
 - Email / WhatsApp / Web Chat / Voice
-- Si activas Voice, puedes definir Initial Greeting (max 500 chars)
+- If you activate Voice, you can define Initial Greeting (max 500 chars)
 
 ### Tools (Capabilities)
 
-- RAG: seleccionar documentos
-- SQL: seleccionar tablas
+- RAG: select documents
+- SQL: select tables
 - Web Search
-- Tools & Actions
+-Tools & Actions
 
-### AI Config
-
-- Model, Temperature, Max Tokens, Top P
-- Timezone (opcional)
-- System Prompt
-- Insert tools context (inserta referencias de tools al prompt)
+### AI Config- Model, Temperature, Max Tokens, Top P
+- Timezone (optional)
+-System Prompt
+- Insert tools context (insert tool references to the prompt)
 - Human Escalation: Detect escalation requests
 
-Acciones:
+Actions:
 
-- Save Changes para guardar.
-- Cancel para volver a Agents.
+- Save Changes to save.
+- Cancel to return to Agents.
 
-## Probar un agent
+## Test an agent
 
-Ruta: /app/{tenant}/agents/{id}/test
+Path: /app/{tenant}/agents/{id}/test
 
-Funciones principales:
+Main functions:
 
-- Enviar mensajes de prueba.
-- Ver trazas (RAG, SQL, tools).
-- Probar voz si el agent tiene voice habilitado.
+- Send test messages.
+- View traces (RAG, SQL, tools).
+- Test voice if the agent has voice enabled.
 
-## Activar o desactivar un agent
+## Activate or deactivate an agent
 
-En la lista de Agents, usa el toggle de estado en cada card.
+In the Agents list, use the status toggle on each card.
 
-## Eliminar un agent
+## Delete an agent
 
-En la card del agent, usa Delete. Confirma la accion.
+On the agent card, use Delete. Confirm the action.
 
-## Buenas practicas
+## Good practices
 
-- Usa un nombre claro por caso de uso (Soporte, Ventas, Cobros).
-- Habilita solo canales que vas a operar.
-- Para RAG, sube documentos limpios y con nombres claros.
-- Para SQL, limita las tablas a las necesarias.
-- Mantener el System Prompt debajo del limite, especialmente en voice.
+- Use a clear name per use case (Support, Sales, Collections).
+- Enable only channels that you are going to operate.
+- For RAG, upload clean documents with clear names.
+- For SQL, limit the tables to those needed.
+- Keep the System Prompt below the limit, especially in voice.
 
-## Errores comunes
+## Common errors
 
-- No aparecen modelos: falta API key en Integrations o plan no incluye el modelo.
-- RAG desactivado: falta Google key o documentos.
-- SQL desactivado: no hay tablas.
+- Models do not appear: API key is missing in Integrations or the plan does not include the model.
+- RAG disabled: Google key or documents missing.
+- SQL disabled: no tables.
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura del modal Create Agent paso 2 (Channels).
-- Captura del tab AI Config con Model y System Prompt.
+- Capture of the Create Agent modal step 2 (Channels).
+- Capture of the AI ​​Config tab with Model and System Prompt.

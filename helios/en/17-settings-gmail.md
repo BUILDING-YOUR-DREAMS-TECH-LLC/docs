@@ -1,52 +1,50 @@
 ---
-title: "Settings - Gmail Integrations"
+title: "Gmail Integrations"
 ---
 
+## Objective
 
-## Objetivo
+Connect Gmail accounts via OAuth to send and receive emails.
 
-Conectar cuentas Gmail via OAuth para envio y recepcion de emails.
-
-## Acceso
+## Access
 
 Settings -> Gmail
-Ruta: /app/{tenant}/settings/gmail
+Path: /app/{tenant}/settings/gmail
 
 ## Roles
 
 - owner, admin
 
-## Conectar Gmail
+## Connect Gmail
 
-1. Selecciona un agent en Assign agent.
-2. Pulsa Connect Gmail.
-3. Completa el OAuth de Google.
+1. Select an agent in Assign agent.
+2. Press Connect Gmail.
+3. Complete Google OAuth.
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Assign agent | Si | seleccion | Support Agent | Requerido para IA |
+| Assign agent | Yes | selection | Support Agent | Required for AI |
 
-## Gestionar cuentas
+## Manage accounts
 
-En cada cuenta:
+On each account:
 
-- Go to Inbox
+-Go to Inbox
 - Disconnect (Trash icon)
-- Ver estado (Active/Expired)
+- View status (Active/Expired)
 
-## Notas
+## Notes
 
-- OAuth es mas seguro que app passwords.
-- Si el token expira, reconecta la cuenta.
+- OAuth is more secure than app passwords.
+- If the token expires, reconnect the account.
 
-## Relacionados
+## Related
 
 - 04-inbox-email.md
 - 08-integrations.md
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura de Gmail Integrations con lista de cuentas.
-
+- Capture of Gmail Integrations with list of accounts.

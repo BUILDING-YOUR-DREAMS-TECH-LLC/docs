@@ -2,37 +2,35 @@
 title: "Onboarding - Plan"
 ---
 
+## Objective
 
-## Objetivo
+Select plan during tenant onboarding.
 
-Seleccionar plan durante el onboarding del tenant.
+## Access
 
-## Acceso
-
-Ruta: /app/{tenant}/onboarding/plan
+Path: /app/{tenant}/onboarding/plan
 
 ## Roles
 
 - owner, admin
 
-## Flujo
+## Flow
 
-1. Se muestra PlanSelector con planes disponibles.
-2. Elige el plan deseado.
-3. Si requiere pago, completa el flujo de Stripe.
+1. PlanSelector is displayed with available plans.
+2. Choose the desired plan.
+3. If payment is required, complete the Stripe flow.
 
-## Datos mostrados
+## Data displayed
 
-- Plan name, descripcion y precio.
-- Limites y features.
-- Plan actual (si aplica).
+- Plan name, description and price.
+- Limits and features.
+- Current plan (if applicable).
 
-## Buenas practicas
+## Good practices
 
-- Revisa limites antes de elegir el plan.
-- Considera usar trial si esta habilitado.
+- Check limits before choosing the plan.
+- Consider using trial if it is enabled.
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura de PlanSelector con tarjetas de plan.
-
+- PlanSelector capture with plan cards.

@@ -2,44 +2,42 @@
 title: "Analytics"
 ---
 
+## Objective
 
-## Objetivo
+View general tenant usage and activity metrics.
 
-Ver metricas generales de uso y actividad del tenant.
-
-## Acceso
+## Access
 
 Sidebar -> Analytics
-Ruta: /app/{tenant}/analytics
+Path: /app/{tenant}/analytics
 
 ## Roles
 
 - owner, admin
 
-## Vista general
+## Overview
 
-- Total Agents (y activos)
-- Knowledge Assets (Documents y SQL tables)
+- Total Agents (and assets)
+- Knowledge Assets (Documents and SQL tables)
 - Email Volume (pending, sent)
-- Conversations (WhatsApp y Web Chat)
+- Conversations (WhatsApp and Web Chat)
 
-## Resumen por canal
+## Summary by channel
 
 - Email: pending, ready for review, sent.
-- WhatsApp: conversations y mensajes recientes.
-- Web Chat: conversations y agents activos.
+- WhatsApp: conversations and recent messages.
+- Web Chat: active conversations and agents.
 
-## Actividad reciente
+## Recent activity
 
-- Emails recientes
-- WhatsApp messages recientes
+- Recent emails
+- Recent WhatsApp messages
 
-## Buenas practicas
+## Good practices
 
-- Usa Analytics para validar el impacto de automatizaciones.
-- Revisa picos de pending review en Email.
+- Use Analytics to validate the impact of automations.
+- Check pending review peaks in Email.
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura del panel de Analytics con tarjetas de resumen.
-
+- Capture of the Analytics dashboard with summary cards.

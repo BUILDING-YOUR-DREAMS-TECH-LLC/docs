@@ -2,62 +2,60 @@
 title: "Team Management"
 ---
 
+## Objective
 
-## Objetivo
+Manage tenant users, roles, and invitations.
 
-Administrar usuarios, roles e invitaciones del tenant.
-
-## Acceso
+## Access
 
 Sidebar -> Team
-Ruta: /app/{tenant}/team
+Path: /app/{tenant}/team
 
 ## Roles
 
-- owner, admin (gestion completa)
-- agent, viewer (solo lectura)
+- owner, admin (full management)
+- agent, viewer (read only)
 
-## Invitar un miembro
+## Invite a member
 
-1. Pulsa Invite Team Member.
-2. Completa Email y Role.
-3. Pulsa Send Invitation.
+1. Press Invite Team Member.
+2. Complete Email and Role.
+3. Press Send Invitation.
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Email Address | Si | email valido | user@acme.com | - |
-| Role | Si | admin/agent/viewer | agent | Control de permisos |
+| Email Address | Yes | valid email | user@acme.com | - |
+| Role | Yes | admin/agent/viewer | agent | Permission control |
 
-## Cambiar rol de un usuario
+## Change a user's role
 
-1. En la tabla, abre Actions (menu).
-2. Selecciona el nuevo rol.
-3. Confirma.
+1. In the table, open Actions (menu).
+2. Select the new role.
+3. Confirm.
 
-## Activar / desactivar usuario
+## Activate/deactivate user
 
-1. En la tabla, abre Actions.
-2. Pulsa Deactivate User o Activate User.
-3. Confirma.
+1. In the table, open Actions.
+2. Press Deactivate User or Activate User.
+3. Confirm.
 
-Notas:
+Notes:
 
-- No puedes modificar tu propio usuario.
-- El rol owner es fijo.
+- You cannot modify your own username.
+- The owner role is fixed.
 
-## Invitaciones pendientes
+## Pending invitations
 
-- Se listan en Pending Invitations.
-- Muestra email, rol, invitado por, expiracion.
+- They are listed in Pending Invitations.
+- Shows email, role, guest by, expiration.
 
-## Buenas practicas
+## Good practices
 
-- Usa viewer para acceso de solo lectura.
-- Desactiva usuarios que no requieran acceso.
+- Use viewer for read-only access.
+- Deactivate users who do not require access.
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura de la tabla de Team Members con Actions.
-
+- Capture of the Team Members table with Actions.

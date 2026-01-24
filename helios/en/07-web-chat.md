@@ -2,66 +2,64 @@
 title: "Web Chat"
 ---
 
+## Objective
 
-## Objetivo
+Manage web chat conversations embedded in websites.
 
-Gestionar conversaciones del chat web embebido en sitios web.
-
-## Acceso
+## Access
 
 Sidebar -> Web Chat
-Ruta: /app/{tenant}/conversations
+Path: /app/{tenant}/conversations
 
 ## Roles
 
 - owner, admin, agent
 
-## Requisitos previos
+## Prerequisites
 
-- Un agent con canal Web Chat habilitado.
-- Widget instalado en tu sitio (ver web chat widget).
+- An agent with Web Chat channel enabled.
+- Widget installed on your site (see web chat widget).
 
-## Lista de conversaciones
+## Conversation list
 
-En la vista principal puedes:
+In the main view you can:
 
-- Filtrar por status: active, closed, archived.
-- Abrir una conversacion con View.
+- Filter by status: active, closed, archived.
+- Open a conversation with View.
 
-Datos mostrados:
+Data displayed:
 
-- Nombre del visitante (o Anonymous Visitor)
-- Email o visitor_id
-- Agent asignado
-- Fecha y hora
+- Name of the visitor (or Anonymous Visitor)
+- Email or visitor_id
+- Agent assigned
+- Date and time
 
-## Detalle de conversacion
+## Conversation detail
 
-Ruta: /app/{tenant}/conversations/{id}
+Path: /app/{tenant}/conversations/{id}
 
-Acciones:
+Actions:
 
-- Enviar mensaje (input + Send)
-- Transfer to Human
-- Close (si status active)
-- Archive (si status closed)
+- Send message (input + Send)
+-Transfer to Human
+- Close (if status active)
+- Archive (if status closed)
 
-Notas:
+Notes:
 
-- El panel se actualiza cada pocos segundos.
-- Los mensajes muestran si usaron RAG o SQL.
+- The panel updates every few seconds.
+- Messages show if they used RAG or SQL.
 
-## Buenas practicas
+## Good practices
 
-- Usa Transfer to Human cuando el usuario lo solicite.
-- Cierra la conversacion cuando el tema esta resuelto.
+- Use Transfer to Human when the user requests it.
+- Close the conversation when the topic is resolved.
 
-## Relacionados
+## Related
 
-- 23-web-chat-widget.md (instalacion del widget)
+- 23-web-chat-widget.md (widget installation)
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura de la lista con filtros Active/Closed/Archived.
-- Captura del detalle con el input de respuesta.
-
+- Capture of the list with Active/Closed/Archived filters.
+- Detail capture with response input.

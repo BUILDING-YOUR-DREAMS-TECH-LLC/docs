@@ -1,7 +1,6 @@
 ---
-title: "Settings - Gmail Integrations"
+title: "Integraciones de Gmail"
 ---
-
 
 ## Objetivo
 

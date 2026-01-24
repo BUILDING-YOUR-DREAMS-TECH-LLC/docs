@@ -2,89 +2,87 @@
 title: "Tools & Functions"
 ---
 
+## Objective
 
-## Objetivo
+Create functions that agents can execute (webhooks or integration actions).
 
-Crear funciones que los agents puedan ejecutar (webhooks o acciones de integraciones).
-
-## Acceso
+## Access
 
 Sidebar -> Tools
-Ruta: /app/{tenant}/tools
+Path: /app/{tenant}/tools
 
 ## Roles
 
 - owner, admin, agent
 
-## Requisitos previos
+## Prerequisites
 
-- Integrations conectadas si quieres Integration Actions.
+- Connected Integrations if you want Integration Actions.
 
-## Crear un Tool
+## Create a Tool
 
-Pulsa Create Tool.
+Press Create Tool.
 
-### Tipo 1: API Request (Webhook)
+### Type 1: API Request (Webhook)
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Tool Name | Si | texto | Book Appointment | Nombre visible |
-| Description | No | texto | Reserva cita en CRM | Ayuda al agent |
-| API URL | Si | URL | https://api.example.com/appointments | Soporta {variable} |
-| HTTP Method | Si | GET/POST/PUT/DELETE | POST | - |
-| Authentication | No | none/bearer/basic | bearer | Opcional |
-| Bearer Token | Si si bearer | texto | ******** | - |
-| Basic Auth | Si si basic | user/pass | user / pass | - |
-| Headers | No | key/value | Authorization | Usa {variable} |
-| Query Params | No | key/value | status=active | Usa {variable} |
-| Body (JSON) | No | JSON | {"id":"{contactId}"} | Valido JSON |
+| Tool Name | Yes | text | Book Appointment | Display name |
+| Description | No | text | Book an appointment in CRM | Help the agent |
+| URL API | Yes | URL | https://api.example.com/appointments | Supports {variable} |
+| HTTPMethod | Yes | GET/POST/PUT/DELETE | POST | - |
+| Authentication | No | none/bearer/basic | bearer | Optional |
+| Bearer Token | Yes yes bearer | text | ******** | - |
+| Basic Auth | Yes yes basic | user/pass | user/pass | - |
+| Headers | No | key/value | Authorization | Use {variable} |
+| Query Params | No | key/value | status=active | Use {variable} |
+| Body (JSON) | No | JSON | {"id":"{contactId}"} | Valid JSON |
 | Parameters Schema | No | JSON schema | {"type":"object"...} | Describe args |
 
-Notas:
+Notes:
 
-- Si Body esta vacio, se envia el payload del tool como JSON.
-- Usa {variable} para insertar argumentos del tool.
+- If Body is empty, the tool payload is sent as JSON.
+- Use {variable} to insert tool arguments.
 
-### Tipo 2: Integration Action
+### Type 2: Integration Action
 
-Pasos:
+Steps:
 
-1. Selecciona la integracion (Google Calendar, Gmail, etc.).
-2. Elige modo:
-   - Quick Add Multiple: seleccion multiple.
-   - Add Single (Custom): personaliza nombre/descripcion.
+1. Select the integration (Google Calendar, Gmail, etc.).
+2. Choose mode:
+   - Quick Add Multiple: multiple selection.
+   - Add Single (Custom): customize name/description.
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Integration | Si | seleccion | Google Calendar | Debe estar conectada |
-| Action | Si | seleccion | Create event | Segun catalogo |
-| Tool Name | Si (custom) | texto | Create Meeting | Editable |
-| Description | No | texto | Crea evento | Editable |
+| Integration | Yes | selection | Google Calendar | Must be connected |
+| Action | Yes | selection | Create event | According to catalog |
+| Tool Name | Yes (custom) | text | Create Meeting | Editable |
+| Description | No | text | Create event | Editable |
 
-## Ver Tools
+## See Tools
 
-En la lista puedes:
+In the list you can:
 
-- Ver descripcion.
-- Abrir Parameters y Details.
+- See description.
+- Open Parameters and Details.
 - Delete tool.
 
-## Buenas practicas
+## Good practices
 
-- Usa nombres accionables (Create Ticket, Update Order).
-- Define Parameters Schema para evitar errores en ejecucion.
-- Documenta ejemplos en Description si es posible.
+- Use actionable names (Create Ticket, Update Order).
+- Define Parameters Schema to avoid errors in execution.
+- Document examples in Description if possible.
 
-## Relacionados
+## Related
 
 - 08-integrations.md
-- 03-agents.md (seleccion de tools)
+- 03-agents.md (tool selection)
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura del modal Create Tool con API URL y Body.
-
+- Capture of the Create Tool modal with URL and Body API.

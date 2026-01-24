@@ -1,7 +1,6 @@
 ---
-title: "Twilio Setup (WhatsApp + Voice)"
+title: "Configuración de Twilio (WhatsApp + Voz)"
 ---
-
 
 ## Objetivo
 

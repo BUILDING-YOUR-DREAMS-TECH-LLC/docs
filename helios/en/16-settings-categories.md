@@ -1,58 +1,56 @@
 ---
-title: "Settings - Categories (Email)"
+title: "Settings - Email Categories"
 ---
 
+## Objective
 
-## Objetivo
+Define categories for automatic email classification.
 
-Definir categorias para clasificacion automatica de emails.
+## Access
 
-## Acceso
-
-Ruta: /app/{tenant}/settings/categories
+Path: /app/{tenant}/settings/categories
 
 ## Roles
 
 - owner, admin
 
-## Crear categoria
+## Create category
 
-1. Pulsa Add Category.
-2. Completa el formulario.
-3. Pulsa Save Category.
+1. Press Add Category.
+2. Complete the form.
+3. Press Save Category.
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Name | Si | texto | Technical Support | Nombre de categoria |
-| Description | No | texto | Issues and bugs | Contexto para IA |
-| Color | No | hex | #94a3b8 | Color del badge |
-| Keywords | No | texto | urgent, error, bug | Separado por comas |
+| Name | Yes | text | Technical Support | Category name |
+| Description | No | text | Issues and bugs | Context for AI |
+| Color | No | hex | #94a3b8 | Badge color |
+| Keywords | No | text | urgent, error, bug | Separated by commas |
 
-## Editar categoria
+## Edit category
 
-- Pulsa el icono Edit en la fila.
-- Ajusta campos y guarda.
+- Press the Edit icon in the row.
+- Adjust fields and save.
 
-## Activar / desactivar
+## Enable/Disable
 
-- Usa el switch en la columna Status.
+- Use the switch in the Status column.
 
-## Eliminar categoria
+## Delete category
 
-- Pulsa Delete y confirma.
+- Press Delete and confirm.
 
-## Buenas practicas
+## Good practices
 
-- Usa nombres cortos y claros.
-- Define Keywords para mejorar clasificacion.
+- Use short and clear names.
+- Define Keywords to improve classification.
 
-## Relacionados
+## Related
 
 - 04-inbox-email.md
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura del formulario de categoria con color y keywords.
-
+- Capture of the category form with color and keywords.

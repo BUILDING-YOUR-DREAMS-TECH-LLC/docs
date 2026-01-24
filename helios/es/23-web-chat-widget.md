@@ -1,7 +1,6 @@
 ---
-title: "Web Chat Widget (Embed)"
+title: "Widget de Chat Web (Incrustar)"
 ---
-
 
 ## Objetivo
 

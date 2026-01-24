@@ -1,25 +1,24 @@
 ---
-title: "Manuales de usuario - HeliosVision AI (ES)"
+title: "User Manuals - Helios Vision AI (EN)"
 ---
 
+This set of manuals describes the use of the Customer Portal by module. Each document is independent and written in Spanish (ASCII) for initial review.
 
-Este conjunto de manuales describe el uso del Portal del Cliente por modulo. Cada documento es independiente y esta escrito en espanol (ASCII) para revision inicial.
+## How to use these manuals
 
-## Como usar estos manuales
+- Each module has its own file.
+- Button and label names are left as they appear in the UI (usually in English).
+- Each manual includes: objective, access, roles, requirements, steps, fields and data, good practices, and related links.
+- Suggestions for illustrations (captures) are included where they add value.
 
-- Cada modulo tiene su propio archivo.
-- Los nombres de botones y etiquetas se dejan tal cual aparecen en la UI (usualmente en ingles).
-- Cada manual incluye: objetivo, acceso, roles, requisitos, pasos, campos y datos, buenas practicas, y enlaces relacionados.
-- Se incluyen sugerencias de ilustraciones (capturas) donde aporten valor.
+## Common roles
 
-## Roles comunes
+- owner: full control of the tenant.
+- admin: module administration and configuration.
+- agent: daily operation (conversations, inbox, agents).
+- viewer: read only.
 
-- owner: control total del tenant.
-- admin: administracion de modulos y configuracion.
-- agent: operacion diaria (conversaciones, inbox, agentes).
-- viewer: solo lectura.
-
-## Indice
+## Index
 
 - 00-overview.md
 - 01-authentication.md

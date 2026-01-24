@@ -1,7 +1,6 @@
 ---
-title: "Lista de capturas (checklist)"
+title: "Lista de capturas (lista de verificación)"
 ---
-
 
 Este documento centraliza todas las capturas sugeridas para los manuales y para registro de la aplicacion (landing y paginas publicas).
 

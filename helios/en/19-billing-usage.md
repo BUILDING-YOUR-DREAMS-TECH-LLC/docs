@@ -2,12 +2,11 @@
 title: "Billing & Usage"
 ---
 
+## Objective
 
-## Objetivo
+Manage the subscription plan and monitor usage limits.
 
-Gestionar el plan de suscripcion y monitorear limites de uso.
-
-## Acceso
+## Access
 
 - Billing: /app/{tenant}/settings/billing
 - Usage: /app/{tenant}/usage
@@ -18,36 +17,35 @@ Gestionar el plan de suscripcion y monitorear limites de uso.
 
 ## Billing
 
-La pagina muestra:
+The page shows:
 
-- Plan actual (nombre, descripcion, precio).
-- Estado de suscripcion.
-- Features incluidos.
-- Usage meters (agents, users, documents, mensajes, etc.).
-- Plan Selector para upgrade/downgrade.
+- Current plan (name, description, price).
+- Subscription status.
+- Features included.
+- Usage meters (agents, users, documents, messages, etc.).
+- Selector Plan for upgrade/downgrade.
 - Customer Portal (Stripe).
 
-Acciones:
+Actions:
 
-- Manage plan: abre el selector de planes.
-- Customer Portal: gestiona pago, facturas y cancelacion.
+- Manage plan: open the plan selector.
+- Customer Portal: manage payment, invoices and cancellation.
 
 ## Usage
 
-- Muestra consumo del mes y fecha de reset.
-- Incluye limites de: Agents, Users, AI Messages, Documents.
+- Shows consumption of the month and reset date.
+- Includes limits of: Agents, Users, AI Messages, Documents.
 
-## Buenas practicas
+## Good practices
 
-- Revisa limites antes de habilitar mas canales.
-- Si estas cerca del limite, considera upgrade.
+- Check limits before enabling more channels.
+- If you are close to the limit, consider upgrading.
 
-## Relacionados
+## Related
 
 - 15-settings-general.md
 - 21-onboarding-plan.md
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura de Billing con Usage meters.
-
+- Capture of Billing with Usage meters.

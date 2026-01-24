@@ -1,7 +1,6 @@
 ---
-title: "Tools & Functions"
+title: "Herramientas y funciones"
 ---
-
 
 ## Objetivo
 

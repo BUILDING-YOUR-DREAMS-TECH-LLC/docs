@@ -1,7 +1,6 @@
 ---
-title: "Acceso y autenticacion"
+title: "Acceso y autenticación"
 ---
-
 
 ## Objetivo
 

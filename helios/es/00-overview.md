@@ -1,7 +1,6 @@
 ---
-title: "Overview - Portal del Cliente"
+title: "Visión general - Portal del Cliente"
 ---
-
 
 ## Objetivo
 

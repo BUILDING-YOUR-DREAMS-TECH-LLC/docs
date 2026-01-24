@@ -1,7 +1,6 @@
 ---
-title: "Billing & Usage"
+title: "Facturación y uso"
 ---
-
 
 ## Objetivo
 

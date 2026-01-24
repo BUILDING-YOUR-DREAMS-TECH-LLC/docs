@@ -2,20 +2,19 @@
 title: "Web Chat Widget (Embed)"
 ---
 
+## Objective
 
-## Objetivo
+Install the chat widget on your website to start conversations with agents.
 
-Instalar el widget de chat en tu sitio web para iniciar conversaciones con agents.
+## Requirements
 
-## Requisitos
+- An agent with Web Chat channel enabled.
+- Access to the HTML of your site.
 
-- Un agent con canal Web Chat habilitado.
-- Acceso al HTML de tu sitio.
+## Step by step (embed)
 
-## Paso a paso (embed)
-
-1. Obtiene tu tenantId y agentId.
-2. Inserta el snippet antes de </body> en tu sitio:
+1. Get your tenantId and agentId.
+2. Insert the snippet before </body> on your site:
 
 ```html
 <script>
@@ -33,14 +32,13 @@ Instalar el widget de chat en tu sitio web para iniciar conversaciones con agent
 </script>
 ```
 
-3. Guarda cambios y recarga el sitio.
+3. Save changes and reload the site.
 
-## Notas
+## Notes
 
-- El agent debe tener Web Chat habilitado en Agents.
-- Si cambias el agentId, las conversaciones nuevas usaran el nuevo agent.
+- The agent must have Web Chat enabled in Agents.
+- If you change the agentId, new conversations will use the new agent.
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura del snippet en un HTML.
-
+- Capture of the snippet in an HTML.

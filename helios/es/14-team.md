@@ -1,7 +1,6 @@
 ---
-title: "Team Management"
+title: "Equipo"
 ---
-
 
 ## Objetivo
 

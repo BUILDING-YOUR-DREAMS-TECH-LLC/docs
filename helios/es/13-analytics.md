@@ -1,7 +1,6 @@
 ---
-title: "Analytics"
+title: "Analítica"
 ---
-
 
 ## Objetivo
 

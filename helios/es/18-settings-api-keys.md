@@ -1,7 +1,6 @@
 ---
-title: "Settings - API Keys (BYOK)"
+title: "Claves API (BYOK)"
 ---
-
 
 ## Objetivo
 

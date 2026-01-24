@@ -1,7 +1,6 @@
 ---
-title: "Notifications"
+title: "Notificaciones"
 ---
-
 
 ## Objetivo
 

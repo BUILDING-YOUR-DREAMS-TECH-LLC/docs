@@ -1,7 +1,6 @@
 ---
-title: "Dashboard"
+title: "Panel de control"
 ---
-
 
 ## Objetivo
 

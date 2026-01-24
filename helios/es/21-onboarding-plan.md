@@ -2,7 +2,6 @@
 title: "Onboarding - Plan"
 ---
 
-
 ## Objetivo
 
 Seleccionar plan durante el onboarding del tenant.

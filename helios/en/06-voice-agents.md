@@ -2,127 +2,126 @@
 title: "Voice Agents"
 ---
 
+## Objective
 
-## Objetivo
+Configure voice agents with phone numbers (Twilio) and analyze calls.
 
-Configurar agentes de voz con numeros telefonicos (Twilio) y analizar llamadas.
-
-## Acceso
+## Access
 
 Sidebar -> Voice Agents
-Ruta: /app/{tenant}/voice-agents
+Path: /app/{tenant}/voice-agents
 
 ## Roles
 
 - owner, admin, agent
 
-## Requisitos previos
+## Prerequisites
 
-- Integrations: Twilio conectado.
-- Agents: un agent base con canal Voice habilitado y modelo compatible realtime.
-- Integrations: OpenAI para analytics (transcription/summary/sentiment).
-- Integrations: ElevenLabs si quieres voz TTS externa.
+- Integrations: Twilio connected.
+- Agents: a base agent with Voice channel enabled and realtime compatible model.
+- Integrations: OpenAI for analytics (transcription/summary/sentiment).
+- Integrations: ElevenLabs if you want external TTS voice.
 
-## Crear un Voice Agent
+## Create a Voice Agent
 
-En Voice Agents, pulsa Create Voice Agent.
+Under Voice Agents, tap Create Voice Agent.
 
-El modal tiene 3 pasos:
+The modal has 3 steps:
 
-### Paso 1: Select Base Agent
+### Step 1: Select Base Agent
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Base Agent | Si | seleccion | Support Agent | Debe tener Voice habilitado |
+| Base Agent | Yes | selection | Support Agent | Must have Voice enabled |
 
-### Paso 2: Voice Configuration
+### Step 2: Voice Configuration
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Voice Provider | Si | OpenAI o ElevenLabs | OpenAI | ElevenLabs requiere key |
-| Primary Language | Si | codigo idioma | es | Afecta pronunciacion |
-| Initial Greeting | No | texto | Hola, en que puedo ayudarte | Se reproduce al iniciar |
-| Voice (OpenAI) | Si | seleccion | alloy | Algunas voces no tienen preview |
-| Voice ID (ElevenLabs) | Si | texto | UOIqAnmS... | Desde ElevenLabs |
+| Voice Provider | Yes | OpenAI or ElevenLabs | OpenAI | ElevenLabs requires key |
+| Primary Language | Yes | language code | is | Affects pronunciation |
+| Initial Greetings | No | text | Hello, how can I help you | Plays on startup |
+| Voice (OpenAI) | Yes | selection | alloy | Some voices do not have a preview |
+| Voice ID (ElevenLabs) | Yes | text | UOIqAnmS... | From ElevenLabs |
 
-Call Analytics (si OpenAI conectado):
+Call Analytics (if OpenAI connected):
 
 - Transcription (enable)
 - AI Summary (enable)
 - Sentiment Analysis (enable)
-- Call Recording (enable, requiere Twilio)
+- Call Recording (enable, requires Twilio)
 
 Call Termination:
 
-- Enable End Call (ON/OFF)
-- End Call Prompt (texto largo)
-- Inactivity Timeout (segundos, 5-60)
+-Enable End Call (ON/OFF)
+- End Call Prompt (long text)
+- Inactivity Timeout (seconds, 5-60)
 
-### Paso 3: Phone Number (Twilio)
+### Step 3: Phone Number (Twilio)
 
-Opciones:
+Options:
 
-- Guardar Twilio SID/Auth Token si no esta conectado.
+- Save Twilio SID/Auth Token if you are not connected.
 - Select an existing Twilio number (dropdown).
-- Phone Number manual (formato +E.164).
+- Manual Phone Number (+E.164 format).
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Twilio Account SID | Si (si no conectado) | AC... | ACxxxx | Integrations |
-| Twilio Auth Token | Si (si no conectado) | 32 chars | ******** | Integrations |
-| Phone Number | Si | +E.164 | +15551234567 | Numero Twilio |
+| Twilio Account SID | Yes (if not connected) | AC... | ACxxxx | Integrations |
+| Twilio Auth Token | Yes (if not connected) | 32 chars | ******** | Integrations |
+| Phone Number | Yes | +E.164 | +15551234567 | Twilio number |
 
-## Gestionar Voice Agents
+## Manage Voice Agents
 
-En cada card:
+On each card:
 
 - Toggle Active/Inactive.
-- Edit.
+- Edit
 - Delete.
 
-## Llamadas (Calls)
+## Calls
 
-Rutas:
+Routes:
 
-- /app/{tenant}/voice-agents/calls (lista)
-- /app/{tenant}/voice-agents/calls/{callId} (detalle)
+- /app/{tenant}/voice-agents/calls (list)
+- /app/{tenant}/voice-agents/calls/{callId} (detail)
 
-Datos mostrados:
+Data displayed:
 
 - Direction (inbound/outbound)
-- From / To
-- Agent
+-From/To
+-Agent
 - Duration
 - Status
 - Sentiment
-- Fecha y hora
+- Date and time
 
-## Buenas practicas
+## Good practices
 
-- Usa un agent base con prompt claro y breve.
-- Define un Initial Greeting corto.
-- Activa Inactivity Timeout como respaldo.
-- Si usas ElevenLabs, valida que el Voice ID sea correcto.
+- Use an agent base with a clear and brief prompt.
+- Defines a short Initial Greeting.
+- Activate Inactivity Timeout as a backup.
+- If you use ElevenLabs, validate that the Voice ID is correct.
 
-## Errores comunes
+## Common errors
 
-- No aparece el agent base: el agent no tiene Voice habilitado o modelo no es realtime.
-- No aparecen numeros: Twilio no conectado.
-- Analytics no funcionan: OpenAI no conectado.
+- The base agent does not appear: the agent does not have Voice enabled or the model is not realtime.
+- Numbers do not appear: Twilio not connected.
+- Analytics not working: OpenAI not connected.
 
-## Relacionados
+## Related
 
 - 22-twilio-setup.md
 - 08-integrations.md
 - 03-agents.md
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura del modal Step 2 (Voice Configuration).
-- Captura de la lista de llamadas.
+- Capture of the Step 2 modal (Voice Configuration).
+- Call list capture.

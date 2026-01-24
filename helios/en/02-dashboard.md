@@ -2,47 +2,45 @@
 title: "Dashboard"
 ---
 
+## Objective
 
-## Objetivo
+General view of the tenant with metrics and quick access.
 
-Vista general del tenant con metricas y accesos rapidos.
-
-## Acceso
+## Access
 
 Sidebar -> Dashboard
-Ruta: /app/{tenant}/dashboard
+Path: /app/{tenant}/dashboard
 
 ## Roles
 
 - owner, admin, agent, viewer
 
-## Vista general
+## Overview
 
-El Dashboard muestra:
+The Dashboard shows:
 
-- Team Members (usuarios activos)
-- AI Agents
+- Team Members (active users)
+-AI Agents
 - Emails
 - Conversations (web chat)
 - Documents
-- Voice Agents
+-Voice Agents
 - Voice Calls
-- Tools
+-Tools
 - Integrations
 
-Tambien muestra tarjetas con enlaces rapidos a modulos principales.
+It also displays cards with quick links to main modules.
 
-## Acciones principales
+## Main actions
 
-- Click en una tarjeta para ir al modulo correspondiente.
-- Usa los enlaces rapidos para crear o configurar recursos.
+- Click on a card to go to the corresponding module.
+- Use the quick links to create or configure resources.
 
-## Buenas practicas
+## Good practices
 
-- Si las metricas estan en cero, revisa Integrations y Agents primero.
-- Usa el Dashboard para validar que los canales estan activos.
+- If the metrics are at zero, check Integrations and Agents first.
+- Use the Dashboard to validate that the channels are active.
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura del Dashboard con las tarjetas de metricas.
-
+- Dashboard capture with metrics cards.

@@ -2,114 +2,113 @@
 title: "Data Tables"
 ---
 
+## Objective
 
-## Objetivo
+Create structured data tables that your AI agents can query using natural language. Perfect for customer databases, inventory tracking, order management and more.
 
-Crear tablas de datos estructurados que tus agentes de IA pueden consultar usando lenguaje natural. Perfecto para bases de datos de clientes, seguimiento de inventario, gestión de pedidos y más.
-
-## Acceso
+## Access
 
 Sidebar -> Data Tables
-Ruta: `/app/{tenant}/sql-tables`
+Path: `/app/{tenant}/sql-tables`
 
-## Roles con acceso
+## Roles with access
 
 - owner, admin, agent
 
-## Límites por plan
+## Limits per plan
 
-| Plan | Tablas | Filas máximas |
+| Plan | Tables | Maximum rows |
 |------|--------|---------------|
 | Free | 1 | 100 |
 | Starter | 3 | 5,000 |
 | Growth | 5 | 20,000 |
 | Business | 10 | 50,000 |
-| Enterprise | Ilimitadas | Ilimitadas |
+| Enterprise | Unlimited | Unlimited |
 
 ---
 
-## Crear una tabla
+## Create a table
 
-1. Pulsa **Create Table**
-2. Completa el formulario
-3. Pulsa **Create Table**
+1. Press **Create Table**
+2. Complete the form
+3. Press **Create Table**
 
-### Campos del formulario
+### Form fields
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
-|-------|-------------|---------|---------|------|
-| Table Name (Internal) | Sí | minúsculas + _ | customer_orders | Identificador interno |
-| Display Name | Sí | texto | Customer Orders | Visible en UI |
-| Description | No | texto | Pedidos de clientes | Ayuda a los agentes |
-| Schema | Sí | lista de campos | order_id: TEXT | Define estructura |
-| Allowed Operations | Sí | selección múltiple | SELECT, INSERT | Limita operaciones |
+| Field | Mandatory | Format | Example | Note |
+|-------|-------------|---------|--------|------|
+| Table Name (Internal) | Yes | lowercase + _ | customer_orders | Internal identifier |
+| Display Name | Yes | text | Customer Orders | Visible in UI |
+| Description | No | text | Customer orders | Help agents |
+| Schema | Yes | field list | order_id: TEXT | Define structure |
+| Allowed Operations | Yes | multiple selection | SELECT, INSERT | Limit operations |
 
-### Tipos de campo disponibles
+### Available field types
 
-| Tipo | Descripción | Ejemplo |
+| Type | Description | Example |
 |------|-------------|---------|
-| TEXT | Texto libre | "Juan García", "ABC123" |
-| NUMBER | Números enteros o decimales | 100, 99.99 |
-| BOOLEAN | Verdadero/Falso | true, false |
-| DATE | Solo fecha | 2024-01-15 |
-| TIMESTAMP | Fecha y hora | 2024-01-15T14:30:00 |
+| TEXT | Free text | "Juan García", "ABC123" |
+| NUMBER | Whole numbers or decimals | 100, 99.99 |
+| BOOLEAN | True/False | true, false |
+| DATE | Date only | 2024-01-15 |
+| TIMESTAMP | Date and time | 2024-01-15T14:30:00 |
 
 ---
 
-## Ver y gestionar datos
+## View and manage data
 
-Ruta: `/app/{tenant}/sql-tables/{id}`
+Path: `/app/{tenant}/sql-tables/{id}`
 
-### Funciones disponibles
+### Available Features
 
-- **Add Row**: Agregar un nuevo registro
-- **Edit Row**: Editar un registro existente
-- **Delete Row**: Eliminar un registro
-- **Natural Language Query**: Consultar con IA
-- **Paginación**: Navegar entre páginas de datos
+- **Add Row**: Add a new record
+- **Edit Row**: Edit an existing record
+- **Delete Row**: Delete a record
+- **Natural Language Query**: Query with AI
+- **Pagination**: Navigate between data pages
 
-### Agregar una fila (Add Row)
+### Add a row (Add Row)
 
-El formulario genera un campo por cada columna del schema.
+The form generates a field for each column of the schema.
 
-Notas por tipo:
-- **NUMBER**: Acepta números decimales (ej: 99.99)
-- **BOOLEAN**: Selector Yes/No
-- **DATE**: Selector de fecha
-- **TIMESTAMP**: Selector de fecha y hora
+Notes by type:
+- **NUMBER**: Accepts decimal numbers (ex: 99.99)
+- **BOOLEAN**: Yes/No selector
+- **DATE**: Date picker
+- **TIMESTAMP**: Date and time selector
 
 ---
 
-## Consultas en Lenguaje Natural
+## Consultations in Natural Language
 
-Esta es la característica más poderosa de Data Tables. Escribe una pregunta en español o inglés y el agente la traduce a una consulta.
+This is the most powerful feature of Data Tables. Write a question in Spanish or English and the agent translates it into a query.
 
-### Consultas que funcionan muy bien
+### Queries that work very well
 
-| Tipo | Ejemplo de pregunta |
-|------|---------------------|
-| **Contar registros** | "¿Cuántos clientes tengo?" |
+| Type | Sample question |
+|------|----------|
+| **Count records** | "How many clients do I have?" |
 | | "How many orders are there?" |
-| **Suma (SUM)** | "¿Cuál es el total de ventas?" |
+| **Sum (SUM)** | "What is the total sales?" |
 | | "What is the total revenue?" |
-| **Promedio (AVG)** | "¿Cuál es el valor promedio de los pedidos?" |
+| **Average (AVG)** | "What is the average order value?" |
 | | "What is the average order value?" |
-| **Máximo (MAX)** | "¿Cuál es la venta más alta?" |
+| **Maximum (MAX)** | "What is the highest sale?" |
 | | "What is the highest sale amount?" |
-| **Mínimo (MIN)** | "¿Cuál es el pedido más pequeño?" |
+| **Minimum (MIN)** | "What is the smallest order?" |
 | | "What is the minimum order?" |
-| **Filtrar por valor** | "Muestra pedidos mayores a $100" |
+| **Filter by value** | "Show orders over $100" |
 | | "Find customers from Mexico" |
-| **Filtrar por fecha** | "Pedidos de enero 2024" |
+| **Filter by date** | "Orders for January 2024" |
 | | "Orders after January 1st, 2024" |
-| **Ordenar resultados** | "Muestra los últimos 10 pedidos ordenados por fecha" |
+| **Sort results** | "Shows the last 10 orders ordered by date" |
 | | "Show orders sorted by amount descending" |
-| **Combinaciones** | "¿Cuál es el total de ventas de pedidos mayores a $50?" |
+| **Combinations** | "What is the total sales for orders over $50?" |
 | | "Average price of products added this month" |
 
-### Ejemplos prácticos por caso de uso
+### Practical examples per use case
 
-#### Para una tabla de Pedidos (Orders)
+#### For an Orders table
 ```
 "¿Cuántos pedidos hay en total?"
 "¿Cuál es el monto total de ventas?"
@@ -118,7 +117,7 @@ Esta es la característica más poderosa de Data Tables. Escribe una pregunta en
 "¿Cuál es el pedido más grande?"
 ```
 
-#### Para una tabla de Clientes (Customers)
+#### For a Customers table
 ```
 "¿Cuántos clientes tenemos?"
 "Clientes de México"
@@ -126,85 +125,83 @@ Esta es la característica más poderosa de Data Tables. Escribe una pregunta en
 "Muestra los últimos 5 clientes agregados"
 ```
 
-#### Para una tabla de Productos (Products)
+#### For a Products table
 ```
 "¿Cuántos productos hay?"
 "¿Cuál es el precio promedio?"
 "Productos con precio mayor a $100"
 "Producto más caro"
 "Producto más barato"
-```
+```### Features not supported (yet)
 
-### Funcionalidades no soportadas (aún)
-
-| Operación | Estado | Nota |
+| Operation | Status | Note |
 |-----------|--------|------|
-| GROUP BY | En desarrollo | "Ventas por región" no funciona aún |
-| JOIN | No soportado | No se pueden relacionar tablas |
-| OR conditions | No soportado | Solo AND para combinar filtros |
-| Subconsultas | No soportado | Consultas simples solamente |
+| GROUP BY | In development | "Sales by region" does not work yet |
+| JOIN | Not supported | Tables cannot be related |
+| OR conditions | Not supported | Just AND to combine filters |
+| Subqueries | Not supported | Simple queries only |
 
-### Notas técnicas
+### Technical notes
 
-- **COUNT** funciona con cualquier cantidad de registros (precisión 100%)
-- **SUM, AVG, MAX, MIN** se calculan sobre un máximo de 500 registros
-- Los resultados se limitan a 100 filas por consulta
-- Las fechas deben estar en formato ISO (YYYY-MM-DD)
-
----
-
-## Asignar tablas a agentes
-
-Para que un agente pueda consultar una tabla:
-
-1. Ve a **Agents** -> selecciona el agente
-2. En la sección **Tools**, activa **Data Tables**
-3. Selecciona las tablas que el agente puede consultar
-4. Guarda los cambios
-
-El agente ahora podrá responder preguntas sobre esas tablas en conversaciones de chat, email o voz.
+- **COUNT** works with any number of records (100% accuracy)
+- **SUM, AVG, MAX, MIN** are calculated on a maximum of 500 records
+- Results are limited to 100 rows per query
+- Dates must be in ISO format (YYYY-MM-DD)
 
 ---
 
-## Buenas prácticas
+## Assign tables to agents
 
-1. **Nombres descriptivos**: Usa nombres claros para tablas y campos
-2. **Campos en inglés**: Mantén los nombres de campos en inglés para mejor compatibilidad
-3. **Limitar operaciones**: Solo habilita INSERT/UPDATE/DELETE si es necesario
-4. **Descripciones útiles**: Agrega descripciones que ayuden al agente a entender los datos
-5. **Tipos correctos**: Usa NUMBER para valores numéricos, DATE para fechas
+For an agent to query a table:
 
----
+1. Go to **Agents** -> select the agent
+2. In the **Tools** section, activate **Data Tables**
+3. Select the tables that the agent can query
+4. Save changes
 
-## Solución de problemas
-
-### "No se encontraron resultados"
-- Verifica que hay datos en la tabla
-- Revisa la ortografía de los valores buscados
-- Intenta una consulta más simple primero
-
-### "Error en la consulta"
-- Evita usar OR en tus preguntas
-- No pidas agrupar por categoría (GROUP BY)
-- Asegúrate de que los campos existen en el schema
-
-### El agente no responde sobre la tabla
-- Verifica que la tabla está asignada al agente
-- Confirma que el agente tiene el tool "Data Tables" habilitado
-- Revisa que "Allowed Operations" incluya SELECT
+The agent will now be able to answer questions about those tables in chat, email, or voice conversations.
 
 ---
 
-## Relacionados
+## Good practices
 
-- [03-agents.md](./03-agents.md) - Configuración de agentes
-- [09-tools.md](./09-tools.md) - Herramientas disponibles
+1. **Descriptive names**: Use clear names for tables and fields
+2. **Fields in English**: Keep field names in English for better compatibility
+3. **Limit operations**: Only enable INSERT/UPDATE/DELETE if necessary
+4. **Useful descriptions**: Add descriptions that help the agent understand the data
+5. **Correct Types**: Use NUMBER for numeric values, DATE for dates
 
 ---
 
-## Capturas sugeridas
+## Troubleshooting
 
-- Vista principal de Data Tables con estadísticas
-- Modal de crear tabla con schema
-- Vista de tabla con datos y Natural Language Query
-- Ejemplo de consulta en lenguaje natural con resultados
+### "No results found"
+- Verify that there is data in the table
+- Check the spelling of the searched values
+- Try a simpler query first
+
+### "Query failed"
+- Avoid using OR in your questions
+- Do not ask to group by category (GROUP BY)
+- Make sure the fields exist in the schema
+
+### The agent does not respond about the table
+- Verify that the table is assigned to the agent
+- Confirm that the agent has the "Data Tables" tool enabled
+- Check that "Allowed Operations" includes SELECT
+
+---
+
+## Related
+
+- [03-agents.md](./03-agents.md) - Agent configuration
+- [09-tools.md](./09-tools.md) - Available tools
+
+---
+
+## Suggested screenshots
+
+- Main view of Data Tables with statistics
+- Modal to create table with schema
+- Table view with data and Natural Language Query
+- Example of query in natural language with results

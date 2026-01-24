@@ -1,7 +1,6 @@
 ---
-title: "Inbox (Email)"
+title: "Bandeja de entrada (Email)"
 ---
-
 
 ## Objetivo
 

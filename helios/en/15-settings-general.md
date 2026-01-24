@@ -2,15 +2,14 @@
 title: "Settings (General)"
 ---
 
+## Objective
 
-## Objetivo
+Configure general tenant data and review plan limits.
 
-Configurar datos generales del tenant y revisar limites de plan.
-
-## Acceso
+## Access
 
 Sidebar -> Settings
-Ruta: /app/{tenant}/settings
+Path: /app/{tenant}/settings
 
 ## Roles
 
@@ -18,37 +17,36 @@ Ruta: /app/{tenant}/settings
 
 ## General Settings
 
-Campos:
+Fields:
 
-| Campo | Obligatorio | Formato | Ejemplo | Nota |
+| Field | Mandatory | Format | Example | Note |
 | --- | --- | --- | --- | --- |
-| Organization Name | Si | texto | Acme Inc. | Nombre visible |
-| Timezone | Si | timezone | America/Bogota | Afecta fechas |
-| Language | Si | idioma | es | Idioma por defecto |
+| Organization Name | Yes | text | Acme Inc. | Display name |
+| Timezone | Yes | timezone | America/Bogota | Affects dates |
+| Language | Yes | language | is | Default language |
 
-Acciones:
+Actions:
 
 - Save Changes
 
-## Plan & Usage (resumen)
+## Plan & Usage (summary)
 
-La pagina muestra:
+The page shows:
 
-- Plan actual y limites.
-- Uso de usuarios, agents, documents, email accounts, webhooks y mensajes.
-- Acceso a Billing.
+- Current plan and limits.
+- Use of users, agents, documents, email accounts, webhooks and messages.
+- Access to Billing.
 
-## Buenas practicas
+## Good practices
 
-- Ajusta Timezone antes de configurar reportes.
-- Revisa limites si algun modulo falla por cuota.
+- Adjust Timezone before configuring reports.
+- Check limits if any module fails due to quota.
 
-## Relacionados
+## Related
 
 - 19-billing-usage.md
 - 18-settings-api-keys.md
 
-## Ilustraciones sugeridas
+## Suggested illustrations
 
-- Captura de General Settings con Organization Name y Timezone.
-
+- Capture of General Settings with Organization Name and Timezone.

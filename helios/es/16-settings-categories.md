@@ -1,7 +1,6 @@
 ---
-title: "Settings - Categories (Email)"
+title: "Configuración - Categorías (Email)"
 ---
-
 
 ## Objetivo
 

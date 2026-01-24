@@ -1,7 +1,6 @@
 ---
-title: "Web Chat"
+title: "Chat web"
 ---
-
 
 ## Objetivo
 

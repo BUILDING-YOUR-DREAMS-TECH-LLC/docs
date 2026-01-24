@@ -2,7 +2,6 @@
 title: "WhatsApp"
 ---
 
-
 ## Objetivo
 
 Conectar numeros de WhatsApp Business y gestionar conversaciones en tiempo real.

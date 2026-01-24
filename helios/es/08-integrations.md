@@ -1,7 +1,6 @@
 ---
-title: "Integrations"
+title: "Integraciones"
 ---
-
 
 ## Objetivo
 
