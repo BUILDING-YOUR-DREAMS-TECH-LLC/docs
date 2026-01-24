@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Building Your Dreams Tech",
+  "name": "Helios Vision AI",
   "colors": {
     "primary": "#EA580C",
     "light": "#FB923C",
     "dark": "#C2410C"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://auth.heliosvisionai.com/storage/v1/object/public/web-images/SunHeliosVisionAI.png",
   "navigation": {
     "tabs": [
       {
@@ -95,8 +95,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://auth.heliosvisionai.com/storage/v1/object/public/web-images/SunHeliosVisionAI.png",
+    "dark": "https://auth.heliosvisionai.com/storage/v1/object/public/web-images/SunHeliosVisionAI.png"
   },
   "navbar": {
     "links": [
