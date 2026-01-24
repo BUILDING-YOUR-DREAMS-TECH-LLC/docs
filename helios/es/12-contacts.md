@@ -2,7 +2,6 @@
 title: "Contacts"
 ---
 
-# Contacts
 
 ## Objetivo
 

@@ -2,7 +2,6 @@
 title: "Overview - Portal del Cliente"
 ---
 
-# Overview - Portal del Cliente
 
 ## Objetivo
 

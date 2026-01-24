@@ -2,7 +2,6 @@
 title: "Onboarding - Plan"
 ---
 
-# Onboarding - Plan
 
 ## Objetivo
 

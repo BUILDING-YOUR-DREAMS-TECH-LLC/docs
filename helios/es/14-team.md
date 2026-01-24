@@ -2,7 +2,6 @@
 title: "Team Management"
 ---
 
-# Team Management
 
 ## Objetivo
 

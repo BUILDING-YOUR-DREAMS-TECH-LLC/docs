@@ -2,7 +2,6 @@
 title: "Dashboard"
 ---
 
-# Dashboard
 
 ## Objetivo
 

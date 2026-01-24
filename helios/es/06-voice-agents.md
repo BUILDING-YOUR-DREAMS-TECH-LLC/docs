@@ -2,7 +2,6 @@
 title: "Voice Agents"
 ---
 
-# Voice Agents
 
 ## Objetivo
 

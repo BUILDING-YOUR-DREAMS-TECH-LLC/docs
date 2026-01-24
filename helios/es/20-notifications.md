@@ -2,7 +2,6 @@
 title: "Notifications"
 ---
 
-# Notifications
 
 ## Objetivo
 

@@ -24,17 +24,16 @@
           {
             "group": "Agentes de IA",
             "pages": [
-              "helios/es/03-agents",
-              "helios/es/06-voice-agents",
-              "helios/es/07-web-chat",
-              "helios/es/23-web-chat-widget"
+              "helios/es/03-agents"
             ]
           },
           {
             "group": "Canales de Comunicacion",
             "pages": [
               "helios/es/04-inbox-email",
-              "helios/es/05-whatsapp"
+              "helios/es/05-whatsapp",
+              "helios/es/06-voice-agents",
+              "helios/es/07-web-chat"
             ]
           },
           {
@@ -50,6 +49,8 @@
             "group": "Integraciones",
             "pages": [
               "helios/es/08-integrations",
+              "helios/es/17-settings-gmail",
+              "helios/es/18-settings-api-keys",
               "helios/es/22-twilio-setup"
             ]
           },
@@ -65,9 +66,7 @@
             "group": "Configuracion",
             "pages": [
               "helios/es/15-settings-general",
-              "helios/es/16-settings-categories",
-              "helios/es/17-settings-gmail",
-              "helios/es/18-settings-api-keys"
+              "helios/es/16-settings-categories"
             ]
           },
           {
@@ -84,7 +83,7 @@
       "anchors": [
         {
           "anchor": "Helios Vision AI",
-          "href": "https://app.heliosvisionai.com",
+          "href": "https://heliosvisionai.com/",
           "icon": "rocket"
         },
         {

@@ -2,7 +2,6 @@
 title: "Lista de capturas (checklist)"
 ---
 
-# Lista de capturas (checklist)
 
 Este documento centraliza todas las capturas sugeridas para los manuales y para registro de la aplicacion (landing y paginas publicas).
 

@@ -2,7 +2,6 @@
 title: "Settings - Gmail Integrations"
 ---
 
-# Settings - Gmail Integrations
 
 ## Objetivo
 

@@ -2,7 +2,6 @@
 title: "Billing & Usage"
 ---
 
-# Billing & Usage
 
 ## Objetivo
 

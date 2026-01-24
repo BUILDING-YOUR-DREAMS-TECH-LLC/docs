@@ -2,7 +2,6 @@
 title: "Analytics"
 ---
 
-# Analytics
 
 ## Objetivo
 

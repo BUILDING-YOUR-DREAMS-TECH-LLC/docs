@@ -2,7 +2,6 @@
 title: "Settings - Categories (Email)"
 ---
 
-# Settings - Categories (Email)
 
 ## Objetivo
 

@@ -2,7 +2,6 @@
 title: "Tools & Functions"
 ---
 
-# Tools & Functions
 
 ## Objetivo
 

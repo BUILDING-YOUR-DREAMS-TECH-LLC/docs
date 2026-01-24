@@ -2,7 +2,6 @@
 title: "Manuales de usuario - HeliosVision AI (ES)"
 ---
 
-# Manuales de usuario - HeliosVision AI (ES)
 
 Este conjunto de manuales describe el uso del Portal del Cliente por modulo. Cada documento es independiente y esta escrito en espanol (ASCII) para revision inicial.
 

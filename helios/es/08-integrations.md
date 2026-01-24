@@ -2,7 +2,6 @@
 title: "Integrations"
 ---
 
-# Integrations
 
 ## Objetivo
 

@@ -2,7 +2,6 @@
 title: "Agents (AI Agents)"
 ---
 
-# Agents (AI Agents)
 
 ## Objetivo
 
