@@ -1,3 +1,7 @@
+---
+title: "Data Tables"
+---
+
 # Data Tables
 
 ## Objetivo

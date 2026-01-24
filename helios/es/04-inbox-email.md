@@ -1,3 +1,7 @@
+---
+title: "Inbox (Email)"
+---
+
 # Inbox (Email)
 
 ## Objetivo

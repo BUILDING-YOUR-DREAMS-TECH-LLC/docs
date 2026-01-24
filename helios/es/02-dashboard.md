@@ -1,3 +1,7 @@
+---
+title: "Dashboard"
+---
+
 # Dashboard
 
 ## Objetivo
