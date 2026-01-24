@@ -95,8 +95,8 @@
     }
   },
   "logo": {
-    "light": "https://auth.heliosvisionai.com/storage/v1/object/public/web-images/SunHeliosVisionAI.png",
-    "dark": "https://auth.heliosvisionai.com/storage/v1/object/public/web-images/SunHeliosVisionAI.png"
+    "light": "/logo/helios-logo.svg",
+    "dark": "/logo/helios-logo.svg"
   },
   "navbar": {
     "links": [
