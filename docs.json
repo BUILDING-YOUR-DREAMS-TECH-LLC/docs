@@ -11,7 +11,75 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Helios Vision AI",
+        "tab": "Helios (EN)",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "helios/en/00-overview",
+              "helios/en/01-authentication",
+              "helios/en/02-dashboard"
+            ]
+          },
+          {
+            "group": "AI Agents",
+            "pages": [
+              "helios/en/03-agents"
+            ]
+          },
+          {
+            "group": "Communication Channels",
+            "pages": [
+              "helios/en/04-inbox-email",
+              "helios/en/05-whatsapp",
+              "helios/en/06-voice-agents",
+              "helios/en/07-web-chat"
+            ]
+          },
+          {
+            "group": "Data & Tools",
+            "pages": [
+              "helios/en/09-tools",
+              "helios/en/10-documents",
+              "helios/en/11-data-tables",
+              "helios/en/12-contacts"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "helios/en/08-integrations",
+              "helios/en/17-settings-gmail",
+              "helios/en/18-settings-api-keys",
+              "helios/en/22-twilio-setup"
+            ]
+          },
+          {
+            "group": "Administration",
+            "pages": [
+              "helios/en/13-analytics",
+              "helios/en/14-team",
+              "helios/en/19-billing-usage"
+            ]
+          },
+          {
+            "group": "Settings",
+            "pages": [
+              "helios/en/15-settings-general",
+              "helios/en/16-settings-categories"
+            ]
+          },
+          {
+            "group": "Other",
+            "pages": [
+              "helios/en/20-notifications",
+              "helios/en/21-onboarding-plan"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Helios (ES)",
         "groups": [
           {
             "group": "Comenzar",
