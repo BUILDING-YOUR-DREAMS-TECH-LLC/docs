@@ -1,68 +1,80 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Building Your Dreams Tech",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#EA580C",
+    "light": "#FB923C",
+    "dark": "#C2410C"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Helios Vision AI",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Comenzar",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "helios/es/00-overview",
+              "helios/es/01-authentication",
+              "helios/es/02-dashboard"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Agentes de IA",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "helios/es/03-agents",
+              "helios/es/06-voice-agents",
+              "helios/es/07-web-chat",
+              "helios/es/23-web-chat-widget"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Canales de Comunicacion",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "helios/es/04-inbox-email",
+              "helios/es/05-whatsapp"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Datos y Herramientas",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "helios/es/09-tools",
+              "helios/es/10-documents",
+              "helios/es/11-data-tables",
+              "helios/es/12-contacts"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Integraciones",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "helios/es/08-integrations",
+              "helios/es/22-twilio-setup"
+            ]
+          },
+          {
+            "group": "Administracion",
+            "pages": [
+              "helios/es/13-analytics",
+              "helios/es/14-team",
+              "helios/es/19-billing-usage"
+            ]
+          },
+          {
+            "group": "Configuracion",
+            "pages": [
+              "helios/es/15-settings-general",
+              "helios/es/16-settings-categories",
+              "helios/es/17-settings-gmail",
+              "helios/es/18-settings-api-keys"
+            ]
+          },
+          {
+            "group": "Otros",
+            "pages": [
+              "helios/es/20-notifications",
+              "helios/es/21-onboarding-plan"
             ]
           }
         ]
@@ -71,14 +83,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Helios Vision AI",
+          "href": "https://app.heliosvisionai.com",
+          "icon": "rocket"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Soporte",
+          "href": "mailto:support@heliosvisionai.com",
+          "icon": "envelope"
         }
       ]
     }
@@ -90,33 +102,20 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Soporte",
+        "href": "mailto:support@heliosvisionai.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Comenzar Gratis",
+      "href": "https://app.heliosvisionai.com/register"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/heliosvisionai",
+      "linkedin": "https://linkedin.com/company/heliosvisionai"
     }
   }
 }
