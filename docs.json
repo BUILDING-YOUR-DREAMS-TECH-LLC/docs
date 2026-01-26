@@ -145,6 +145,136 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Legal Easie AI (EN)",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "legal-easie-ai/en/00-overview",
+              "legal-easie-ai/en/01-getting-started",
+              "legal-easie-ai/en/02-dashboard"
+            ]
+          },
+          {
+            "group": "Core Modules",
+            "pages": [
+              "legal-easie-ai/en/03-clients",
+              "legal-easie-ai/en/04-cases",
+              "legal-easie-ai/en/05-documents"
+            ]
+          },
+          {
+            "group": "AI & Channels",
+            "pages": [
+              "legal-easie-ai/en/06-chat-ai",
+              "legal-easie-ai/en/07-whatsapp"
+            ]
+          },
+          {
+            "group": "Calendar",
+            "pages": [
+              "legal-easie-ai/en/08-calendar"
+            ]
+          },
+          {
+            "group": "Billing",
+            "pages": [
+              "legal-easie-ai/en/09-billing"
+            ]
+          },
+          {
+            "group": "Team & Settings",
+            "pages": [
+              "legal-easie-ai/en/10-members-roles",
+              "legal-easie-ai/en/11-settings"
+            ]
+          },
+          {
+            "group": "Admin",
+            "pages": [
+              "legal-easie-ai/en/12-admin-knowledge"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "legal-easie-ai/en/13-security"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "legal-easie-ai/en/14-troubleshooting"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Legal Easie AI (ES)",
+        "groups": [
+          {
+            "group": "Comenzar",
+            "pages": [
+              "legal-easie-ai/es/00-overview",
+              "legal-easie-ai/es/01-getting-started",
+              "legal-easie-ai/es/02-dashboard"
+            ]
+          },
+          {
+            "group": "Modulos Principales",
+            "pages": [
+              "legal-easie-ai/es/03-clients",
+              "legal-easie-ai/es/04-cases",
+              "legal-easie-ai/es/05-documents"
+            ]
+          },
+          {
+            "group": "IA y Canales",
+            "pages": [
+              "legal-easie-ai/es/06-chat-ai",
+              "legal-easie-ai/es/07-whatsapp"
+            ]
+          },
+          {
+            "group": "Calendario",
+            "pages": [
+              "legal-easie-ai/es/08-calendar"
+            ]
+          },
+          {
+            "group": "Facturacion",
+            "pages": [
+              "legal-easie-ai/es/09-billing"
+            ]
+          },
+          {
+            "group": "Equipo y Configuracion",
+            "pages": [
+              "legal-easie-ai/es/10-members-roles",
+              "legal-easie-ai/es/11-settings"
+            ]
+          },
+          {
+            "group": "Admin",
+            "pages": [
+              "legal-easie-ai/es/12-admin-knowledge"
+            ]
+          },
+          {
+            "group": "Seguridad",
+            "pages": [
+              "legal-easie-ai/es/13-security"
+            ]
+          },
+          {
+            "group": "Solucion de problemas",
+            "pages": [
+              "legal-easie-ai/es/14-troubleshooting"
+            ]
+          }
+        ]
       }
     ],
     "global": {
