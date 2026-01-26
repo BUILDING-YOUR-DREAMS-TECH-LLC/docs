@@ -7,7 +7,7 @@
     "light": "#FB923C",
     "dark": "#C2410C"
   },
-  "favicon": "https://auth.heliosvisionai.com/storage/v1/object/public/web-images/SunHeliosVisionAI.png",
+  "favicon": "https://vuadqpstxgkpmscfqwlf.supabase.co/storage/v1/object/public/web_images/Legal%20Easie.png",
   "navigation": {
     "tabs": [
       {
@@ -293,8 +293,8 @@
     }
   },
   "logo": {
-    "light": "/logo/helios-logo.svg",
-    "dark": "/logo/helios-logo.svg"
+    "light": "https://vuadqpstxgkpmscfqwlf.supabase.co/storage/v1/object/public/web_images/Legal%20Easie.png",
+    "dark": "https://vuadqpstxgkpmscfqwlf.supabase.co/storage/v1/object/public/web_images/Legal%20Easie.png"
   },
   "navbar": {
     "links": [
