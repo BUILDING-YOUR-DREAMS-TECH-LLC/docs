@@ -9,7 +9,7 @@ Create functions that agents can execute (webhooks or integration actions).
 ## Access
 
 Sidebar -> Tools
-Path: /app/{tenant}/tools
+Path: `/app/{tenant}/tools`
 
 ## Roles
 
@@ -31,20 +31,20 @@ Fields:
 | --- | --- | --- | --- | --- |
 | Tool Name | Yes | text | Book Appointment | Display name |
 | Description | No | text | Book an appointment in CRM | Help the agent |
-| URL API | Yes | URL | https://api.example.com/appointments | Supports {variable} |
-| HTTPMethod | Yes | GET/POST/PUT/DELETE | POST | - |
+| URL API | Yes | URL | `https://api.example.com/appointments` | Supports `{variable}` |
+| HTTP Method | Yes | GET/POST/PUT/DELETE | POST | - |
 | Authentication | No | none/bearer/basic | bearer | Optional |
-| Bearer Token | Yes yes bearer | text | ******** | - |
-| Basic Auth | Yes yes basic | user/pass | user/pass | - |
-| Headers | No | key/value | Authorization | Use {variable} |
-| Query Params | No | key/value | status=active | Use {variable} |
-| Body (JSON) | No | JSON | {"id":"{contactId}"} | Valid JSON |
-| Parameters Schema | No | JSON schema | {"type":"object"...} | Describe args |
+| Bearer Token | Yes (if bearer) | text | ******** | - |
+| Basic Auth | Yes (if basic) | user/pass | user/pass | - |
+| Headers | No | key/value | Authorization | Use `{variable}` |
+| Query Params | No | key/value | status=active | Use `{variable}` |
+| Body (JSON) | No | JSON | `{"id":"{contactId}"}` | Valid JSON |
+| Parameters Schema | No | JSON schema | `{"type":"object"...}` | Describe args |
 
 Notes:
 
 - If Body is empty, the tool payload is sent as JSON.
-- Use {variable} to insert tool arguments.
+- Use `{variable}` to insert tool arguments.
 
 ### Type 2: Integration Action
 

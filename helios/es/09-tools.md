@@ -9,7 +9,7 @@ Crear funciones que los agents puedan ejecutar (webhooks o acciones de integraci
 ## Acceso
 
 Sidebar -> Tools
-Ruta: /app/{tenant}/tools
+Ruta: `/app/{tenant}/tools`
 
 ## Roles
 
@@ -31,20 +31,20 @@ Campos:
 | --- | --- | --- | --- | --- |
 | Tool Name | Si | texto | Book Appointment | Nombre visible |
 | Description | No | texto | Reserva cita en CRM | Ayuda al agent |
-| API URL | Si | URL | https://api.example.com/appointments | Soporta {variable} |
+| API URL | Si | URL | `https://api.example.com/appointments` | Soporta `{variable}` |
 | HTTP Method | Si | GET/POST/PUT/DELETE | POST | - |
 | Authentication | No | none/bearer/basic | bearer | Opcional |
-| Bearer Token | Si si bearer | texto | ******** | - |
-| Basic Auth | Si si basic | user/pass | user / pass | - |
-| Headers | No | key/value | Authorization | Usa {variable} |
-| Query Params | No | key/value | status=active | Usa {variable} |
-| Body (JSON) | No | JSON | {"id":"{contactId}"} | Valido JSON |
-| Parameters Schema | No | JSON schema | {"type":"object"...} | Describe args |
+| Bearer Token | Si (si bearer) | texto | ******** | - |
+| Basic Auth | Si (si basic) | user/pass | user / pass | - |
+| Headers | No | key/value | Authorization | Usa `{variable}` |
+| Query Params | No | key/value | status=active | Usa `{variable}` |
+| Body (JSON) | No | JSON | `{"id":"{contactId}"}` | Valido JSON |
+| Parameters Schema | No | JSON schema | `{"type":"object"...}` | Describe args |
 
 Notas:
 
 - Si Body esta vacio, se envia el payload del tool como JSON.
-- Usa {variable} para insertar argumentos del tool.
+- Usa `{variable}` para insertar argumentos del tool.
 
 ### Tipo 2: Integration Action
 

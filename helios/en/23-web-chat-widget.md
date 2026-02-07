@@ -14,7 +14,7 @@ Install the chat widget on your website to start conversations with agents.
 ## Step by step (embed)
 
 1. Get your tenantId and agentId.
-2. Insert the snippet before </body> on your site:
+2. Insert the snippet before `</body>` on your site:
 
 ```html
 <script>
