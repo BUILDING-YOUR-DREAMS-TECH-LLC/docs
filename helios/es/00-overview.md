@@ -43,6 +43,6 @@ Este documento resume como navegar el Portal del Cliente y como se conectan los 
 
 ## Ilustraciones sugeridas
 
-- Captura del Sidebar con todos los modulos.
-- Diagrama simple del flujo: Integrations -> Agents -> Channels.
+### Sidebar con todos los módulos
+![Sidebar con todos los módulos](../../images/helios/es/overview/sidebar-full.png)
 

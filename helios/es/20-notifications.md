@@ -32,5 +32,6 @@ Ruta: /app/{tenant}/notifications
 
 ## Ilustraciones sugeridas
 
-- Captura con filtros y lista de notificaciones.
+### Lista de Notificaciones
+![Lista de Notificaciones](../../images/helios/es/notifications/notifications-list-filters.png)
 

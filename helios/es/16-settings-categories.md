@@ -53,5 +53,6 @@ Campos:
 
 ## Ilustraciones sugeridas
 
-- Captura del formulario de categoria con color y keywords.
+### Formulario de Categoría
+![Formulario de Categoría](../../images/helios/es/settings-categories/settings-category-form.png)
 

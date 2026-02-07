@@ -47,5 +47,6 @@ En cada cuenta:
 
 ## Ilustraciones sugeridas
 
-- Captura de Gmail Integrations con lista de cuentas.
+### Cuentas de Gmail
+![Cuentas de Gmail](../../images/helios/es/settings-gmail/settings-gmail-list.png)
 

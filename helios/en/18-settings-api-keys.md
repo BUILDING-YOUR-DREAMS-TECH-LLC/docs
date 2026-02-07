@@ -54,4 +54,5 @@ Fields:
 
 ## Suggested illustrations
 
-- Capture of API Keys with Verified status.
+### API Keys Status
+![API Keys Status](../../images/helios/en/settings-api-keys/settings-api-keys-status.png)

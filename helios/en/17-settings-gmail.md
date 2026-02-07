@@ -47,4 +47,5 @@ On each account:
 
 ## Suggested illustrations
 
-- Capture of Gmail Integrations with list of accounts.
+### Gmail Accounts
+![Gmail Accounts](../../images/helios/en/settings-gmail/settings-gmail-list.png)

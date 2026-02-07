@@ -33,4 +33,5 @@ Path: /app/{tenant}/onboarding/plan
 
 ## Suggested illustrations
 
-- PlanSelector capture with plan cards.
+### Plan Selector
+![Plan Selector](../../images/helios/en/onboarding/onboarding-plan-selector.png)

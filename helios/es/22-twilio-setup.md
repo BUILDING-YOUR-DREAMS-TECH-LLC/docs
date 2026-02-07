@@ -80,6 +80,7 @@ Configura el webhook en Twilio:
 
 ## Ilustraciones sugeridas
 
-- Captura del Twilio Console con Account SID/Auth Token.
+### Twilio Console
+![Twilio Console Credentials](../../images/helios/es/twilio/twilio-console-credentials.png)
 - Captura de configuracion de webhook.
 

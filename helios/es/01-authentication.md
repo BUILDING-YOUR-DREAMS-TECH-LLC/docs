@@ -111,6 +111,7 @@ Usa el menu de usuario en el sidebar (o la opcion Sign out) para cerrar sesion.
 
 ## Ilustraciones sugeridas
 
-- Captura del formulario de login con opciones Google y Email.
-- Captura del formulario de signup con subdomain.
-
+### Login con Google y Email
+![Login con Google y Email](../../images/helios/es/auth/login-form.png)
+### Registro con subdominio
+![Registro con subdominio](../../images/helios/es/auth/signup-form.png)

@@ -123,5 +123,8 @@ Datos mostrados:
 
 ## Ilustraciones sugeridas
 
-- Captura del modal Step 2 (Voice Configuration).
-- Captura de la lista de llamadas.
+### Configuración de Voz (Paso 2)
+![Configuración de Voz (Paso 2)](../../images/helios/es/voice/voice-create-step2.png)
+
+### Lista de Llamadas
+![Lista de Llamadas](../../images/helios/es/voice/voice-calls-list.png)

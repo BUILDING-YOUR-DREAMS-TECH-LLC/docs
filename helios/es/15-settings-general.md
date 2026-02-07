@@ -49,5 +49,6 @@ La pagina muestra:
 
 ## Ilustraciones sugeridas
 
-- Captura de General Settings con Organization Name y Timezone.
+### Configuración General
+![Configuración General](../../images/helios/es/settings-general/settings-general-form.png)
 

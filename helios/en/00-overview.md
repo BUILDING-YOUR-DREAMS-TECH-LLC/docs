@@ -43,5 +43,5 @@ This document summarizes how to navigate the Customer Portal and how the modules
 
 ## Suggested illustrations
 
-- Capture of the Sidebar with all the modules.
-- Simple flow diagram: Integrations -> Agents -> Channels.
+### Sidebar with all modules
+![Sidebar with all modules](../../images/helios/en/overview/sidebar-full.png)

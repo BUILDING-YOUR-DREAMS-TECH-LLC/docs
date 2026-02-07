@@ -203,7 +203,14 @@ El agente ahora podrá responder preguntas sobre esas tablas en conversaciones d
 
 ## Capturas sugeridas
 
-- Vista principal de Data Tables con estadísticas
-- Modal de crear tabla con schema
-- Vista de tabla con datos y Natural Language Query
-- Ejemplo de consulta en lenguaje natural con resultados
+### Vista Principal
+![Vista Principal](../../images/helios/es/data-tables/datatables-main-stats.png)
+
+### Crear Tabla
+![Crear Tabla](../../images/helios/es/data-tables/datatables-create-modal.png)
+
+### Vista de Datos
+![Vista de Datos](../../images/helios/es/data-tables/datatables-view-data.png)
+
+### Consulta en Lenguaje Natural
+![Consulta NL](../../images/helios/es/data-tables/datatables-nl-query.png)

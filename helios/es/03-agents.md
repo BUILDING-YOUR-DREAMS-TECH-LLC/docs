@@ -170,5 +170,8 @@ En la card del agent, usa Delete. Confirma la accion.
 
 ## Ilustraciones sugeridas
 
-- Captura del modal Create Agent paso 2 (Channels).
-- Captura del tab AI Config con Model y System Prompt.
+### Creación de Agente - Paso 2 (Canales)
+![Creación de Agente - Paso 2 (Canales)](../../images/helios/es/agents/create-agent-step2.png)
+
+### Configuración de IA
+![Configuración de IA](../../images/helios/es/agents/ai-config-tab.png)

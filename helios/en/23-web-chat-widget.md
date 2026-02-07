@@ -41,4 +41,5 @@ Install the chat widget on your website to start conversations with agents.
 
 ## Suggested illustrations
 
-- Capture of the snippet in an HTML.
+### Embed Snippet
+![Embed Snippet](../../images/helios/en/web-chat/web-chat-embed-snippet.png)

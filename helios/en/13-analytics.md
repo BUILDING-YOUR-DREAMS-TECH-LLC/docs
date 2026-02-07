@@ -40,4 +40,5 @@ Path: /app/{tenant}/analytics
 
 ## Suggested illustrations
 
-- Capture of the Analytics dashboard with summary cards.
+### Analytics Dashboard
+![Analytics Dashboard](../../images/helios/en/analytics/analytics-dashboard.png)

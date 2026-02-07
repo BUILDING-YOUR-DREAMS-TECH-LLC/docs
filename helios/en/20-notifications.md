@@ -32,4 +32,5 @@ Path: /app/{tenant}/notifications
 
 ## Suggested illustrations
 
-- Capture with filters and notification list.
+### Notification List
+![Notification List](../../images/helios/en/notifications/notifications-list-filters.png)

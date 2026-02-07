@@ -33,5 +33,6 @@ Ruta: /app/{tenant}/onboarding/plan
 
 ## Ilustraciones sugeridas
 
-- Captura de PlanSelector con tarjetas de plan.
+### Selector de Planes
+![Selector de Planes](../../images/helios/es/onboarding/onboarding-plan-selector.png)
 

@@ -58,4 +58,5 @@ Notes:
 
 ## Suggested illustrations
 
-- Capture of the Team Members table with Actions.
+### Team Members
+![Team Members](../../images/helios/en/team/team-members-list.png)

@@ -201,7 +201,14 @@ The agent will now be able to answer questions about those tables in chat, email
 
 ## Suggested screenshots
 
-- Main view of Data Tables with statistics
-- Modal to create table with schema
-- Table view with data and Natural Language Query
-- Example of query in natural language with results
+### Main View
+![Main View](../../images/helios/en/data-tables/datatables-main-stats.png)
+
+### Create Table
+![Create Table](../../images/helios/en/data-tables/datatables-create-modal.png)
+
+### Table Data View
+![Table Data View](../../images/helios/en/data-tables/datatables-view-data.png)
+
+### Natural Language Query
+![Natural Language Query](../../images/helios/en/data-tables/datatables-nl-query.png)

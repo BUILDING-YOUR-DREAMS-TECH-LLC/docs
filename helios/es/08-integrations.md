@@ -124,6 +124,9 @@ Campos:
 
 ## Ilustraciones sugeridas
 
-- Captura de la tarjeta Twilio con campos SID/Token.
-- Captura de Webhooks con lista.
+### Tarjeta Twilio
+![Tarjeta Twilio](../../images/helios/es/integrations/twilio-card-redacted.png)
+
+### Webhooks
+![Webhooks](../../images/helios/es/integrations/integration-webhooks-list.png)
 

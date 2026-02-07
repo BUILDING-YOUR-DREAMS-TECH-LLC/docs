@@ -43,5 +43,5 @@ Tambien muestra tarjetas con enlaces rapidos a modulos principales.
 
 ## Ilustraciones sugeridas
 
-- Captura del Dashboard con las tarjetas de metricas.
-
+### Dashboard con métricas
+![Dashboard con métricas](../../images/helios/es/dashboard/dashboard-main.png)

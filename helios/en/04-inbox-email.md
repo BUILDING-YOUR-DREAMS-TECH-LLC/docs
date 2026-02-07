@@ -219,5 +219,8 @@ Important notes:
 
 ## Suggested illustrations
 
-- Capture of Email Accounts with Gmail/Outlook/SMTP options.
-- Capture email details with Summary and AI response.
+### Email Accounts
+![Email Accounts](../../images/helios/en/inbox/inbox-email-accounts.png)
+
+### Email Detail
+![Email Detail](../../images/helios/en/inbox/inbox-email-detail.png)

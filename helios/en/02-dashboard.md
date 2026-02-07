@@ -43,4 +43,5 @@ It also displays cards with quick links to main modules.
 
 ## Suggested illustrations
 
-- Dashboard capture with metrics cards.
+### Dashboard with metrics
+![Dashboard with metrics](../../images/helios/es/dashboard/dashboard-main.png)

@@ -48,5 +48,6 @@ Acciones:
 
 ## Ilustraciones sugeridas
 
-- Captura de Billing con Usage meters.
+### Facturación y Uso
+![Facturación y Uso](../../images/helios/es/billing/billing-usage-meters.png)
 

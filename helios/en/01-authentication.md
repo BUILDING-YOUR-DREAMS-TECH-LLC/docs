@@ -111,5 +111,7 @@ Use the user menu in the sidebar (or the Sign out option) to log out.
 
 ## Suggested illustrations
 
-- Capture of the login form with Google and Email options.
-- Capture of the signup form with subdomain.
+### Login with Google and Email
+![Login with Google and Email](../../images/helios/es/auth/login-form.png)
+### Signup with subdomain
+![Signup with subdomain](../../images/helios/es/auth/signup-form.png)

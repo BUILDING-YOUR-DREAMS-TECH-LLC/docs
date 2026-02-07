@@ -53,4 +53,5 @@ Fields:
 
 ## Suggested illustrations
 
-- Capture of the category form with color and keywords.
+### Category Form
+![Category Form](../../images/helios/en/settings-categories/settings-category-form.png)

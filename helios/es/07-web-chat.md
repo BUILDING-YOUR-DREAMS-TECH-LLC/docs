@@ -61,6 +61,9 @@ Notas:
 
 ## Ilustraciones sugeridas
 
-- Captura de la lista con filtros Active/Closed/Archived.
-- Captura del detalle con el input de respuesta.
+### Lista de Conversaciones
+![Lista de Conversaciones](../../images/helios/es/web-chat/web-chat-list.png)
+
+### Detalle de Conversación
+![Detalle de Conversación](../../images/helios/es/web-chat/web-chat-detail.png)
 

@@ -85,4 +85,5 @@ In the list you can:
 
 ## Suggested illustrations
 
-- Capture of the Create Tool modal with URL and Body API.
+### Create Tool (API Request)
+![Create Tool](../../images/helios/en/tools/tool-create-modal.png)

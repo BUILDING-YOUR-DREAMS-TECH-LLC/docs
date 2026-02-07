@@ -113,5 +113,5 @@ Features:
 
 ## Suggested illustrations
 
-- Capture of the Connect New Number modal (Twilio).
-- Capture the conversation view with AI Insights.
+### Connect New Number
+![Connect New Number](../../images/helios/en/whatsapp/whatsapp-connect-modal.png)

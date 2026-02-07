@@ -58,5 +58,6 @@ Notas:
 
 ## Ilustraciones sugeridas
 
-- Captura de la tabla de Team Members con Actions.
+### Miembros del Equipo
+![Miembros del Equipo](../../images/helios/es/team/team-members-list.png)
 

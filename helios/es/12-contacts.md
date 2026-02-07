@@ -58,6 +58,9 @@ Campos:
 
 ## Ilustraciones sugeridas
 
-- Captura del modal Add Contact.
-- Captura del listado con filtros.
+### Crear Contacto
+![Crear Contacto](../../images/helios/es/contacts/contacts-add-modal.png)
+
+### Lista de Contactos
+![Lista de Contactos](../../images/helios/es/contacts/contacts-list.png)
 

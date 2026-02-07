@@ -124,5 +124,8 @@ Fields:
 
 ## Suggested illustrations
 
-- Twilio card capture with SID/Token fields.
-- Capture of Webhooks with list.
+### Twilio Card
+![Twilio Card](../../images/helios/en/integrations/twilio-card-redacted.png)
+
+### Webhooks List
+![Webhooks List](../../images/helios/en/integrations/integration-webhooks-list.png)

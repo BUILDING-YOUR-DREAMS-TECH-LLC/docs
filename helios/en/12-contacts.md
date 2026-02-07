@@ -58,5 +58,8 @@ Fields:
 
 ## Suggested illustrations
 
-- Capture of the Add Contact modal.
-- Capture of the list with filters.
+### Add Contact
+![Add Contact](../../images/helios/en/contacts/contacts-add-modal.png)
+
+### Contacts List
+![Contacts List](../../images/helios/en/contacts/contacts-list.png)

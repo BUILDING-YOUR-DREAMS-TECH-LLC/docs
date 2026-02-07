@@ -72,5 +72,8 @@ En la lista, pulsa el icono de delete y confirma.
 
 ## Ilustraciones sugeridas
 
-- Captura del modal Upload Document.
-- Captura de la lista con estados Ready/Processing.
+### Subir Documento
+![Subir Documento](../../images/helios/es/documents/documents-upload-modal.png)
+
+### Lista de Documentos
+![Lista de Documentos](../../images/helios/es/documents/documents-list.png)

@@ -40,5 +40,6 @@ Ruta: /app/{tenant}/analytics
 
 ## Ilustraciones sugeridas
 
-- Captura del panel de Analytics con tarjetas de resumen.
+### Dashboard de Analítica
+![Dashboard Analítica](../../images/helios/es/analytics/analytics-dashboard.png)
 
