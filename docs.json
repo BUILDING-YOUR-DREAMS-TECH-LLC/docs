@@ -166,7 +166,8 @@
   },
   "logo": {
     "light": "/logo/helios-logo.svg",
-    "dark": "/logo/helios-logo.svg"
+    "dark": "/logo/helios-logo.svg",
+    "href": "/helios/en/00-overview"
   },
   "navbar": {
     "links": [
