@@ -30,9 +30,3 @@ Ruta: /app/{tenant}/onboarding/plan
 
 - Revisa limites antes de elegir el plan.
 - Considera usar trial si esta habilitado.
-
-## Ilustraciones sugeridas
-
-### Selector de Planes
-![Selector de Planes](../../images/helios/es/onboarding/onboarding-plan-selector.png)
-

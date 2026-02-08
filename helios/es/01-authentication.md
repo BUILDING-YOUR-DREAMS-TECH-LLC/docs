@@ -33,6 +33,8 @@ Campos:
 | Email | Si | email valido | name@company.com | Se usa para autenticacion |
 | Password | Si | minimo 8 caracteres | ******** | - |
 
+![Login con Google y Email](../../images/helios/es/auth/login-form.png)
+
 ## Crear cuenta (signup)
 
 Flujo recomendado:
@@ -55,6 +57,8 @@ Notas:
 
 - Si eliges Google OAuth, el flujo puede redirigir a /auth/complete para terminar datos del tenant.
 - El subdomain debe ser unico.
+
+![Registro con subdominio](../../images/helios/es/auth/signup-form.png)
 
 ## Completar cuenta (OAuth)
 
@@ -109,9 +113,3 @@ Campos de reset:
 
 Usa el menu de usuario en el sidebar (o la opcion Sign out) para cerrar sesion.
 
-## Ilustraciones sugeridas
-
-### Login con Google y Email
-![Login con Google y Email](../../images/helios/es/auth/login-form.png)
-### Registro con subdominio
-![Registro con subdominio](../../images/helios/es/auth/signup-form.png)

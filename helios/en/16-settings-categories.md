@@ -51,7 +51,3 @@ Fields:
 
 - 04-inbox-email.md
 
-## Suggested illustrations
-
-### Category Form
-![Category Form](../../images/helios/en/settings-categories/settings-category-form.png)

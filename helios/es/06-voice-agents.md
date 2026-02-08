@@ -61,6 +61,8 @@ Call Termination:
 - End Call Prompt (texto largo)
 - Inactivity Timeout (segundos, 5-60)
 
+![Configuración de Voz (Paso 2)](../../images/helios/es/voice/voice-create-step2.png)
+
 ### Paso 3: Phone Number (Twilio)
 
 Opciones:
@@ -102,6 +104,8 @@ Datos mostrados:
 - Sentiment
 - Fecha y hora
 
+![Lista de Llamadas](../../images/helios/es/voice/voice-calls-list.png)
+
 ## Buenas practicas
 
 - Usa un agent base con prompt claro y breve.
@@ -121,10 +125,3 @@ Datos mostrados:
 - 08-integrations.md
 - 03-agents.md
 
-## Ilustraciones sugeridas
-
-### Configuración de Voz (Paso 2)
-![Configuración de Voz (Paso 2)](../../images/helios/es/voice/voice-create-step2.png)
-
-### Lista de Llamadas
-![Lista de Llamadas](../../images/helios/es/voice/voice-calls-list.png)

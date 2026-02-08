@@ -122,10 +122,3 @@ Fields:
 - 22-twilio-setup.md
 - 09-tools.md
 
-## Suggested illustrations
-
-### Twilio Card
-![Twilio Card](../../images/helios/en/integrations/twilio-card-redacted.png)
-
-### Webhooks List
-![Webhooks List](../../images/helios/en/integrations/integration-webhooks-list.png)

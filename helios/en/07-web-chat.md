@@ -59,10 +59,3 @@ Notes:
 
 - 23-web-chat-widget.md (widget installation)
 
-## Suggested illustrations
-
-### Conversation List
-![Conversation List](../../images/helios/en/web-chat/web-chat-list.png)
-
-### Conversation Detail
-![Conversation Detail](../../images/helios/en/web-chat/web-chat-detail.png)

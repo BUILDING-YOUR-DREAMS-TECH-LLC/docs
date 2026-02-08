@@ -55,12 +55,3 @@ Campos:
 
 - Mantener status actualizado (lead, active, customer).
 - Completar Phone y Email para contacto rapido.
-
-## Ilustraciones sugeridas
-
-### Crear Contacto
-![Crear Contacto](../../images/helios/es/contacts/contacts-add-modal.png)
-
-### Lista de Contactos
-![Lista de Contactos](../../images/helios/es/contacts/contacts-list.png)
-

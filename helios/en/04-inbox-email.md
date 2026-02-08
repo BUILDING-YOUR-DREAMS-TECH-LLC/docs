@@ -105,6 +105,8 @@ In the account list you can:
 - Delete.
 - Edit (opens Email Configuration).
 
+![Email Accounts](../../images/helios/en/inbox/inbox-email-accounts.png)
+
 ## Email Configuration (per account)
 
 Quick route: Inbox -> account card -> Edit
@@ -204,6 +206,8 @@ Important notes:
 - If Auto-reply blocked, the system deactivates AI and asks for confirmation to send.
 - To send, the response field must not be empty.
 
+![Email Detail](../../images/helios/en/inbox/inbox-email-detail.png)
+
 ## Good practices
 
 - Assign an agent to each account before activating AI.
@@ -217,10 +221,3 @@ Important notes:
 - Verify fails: check SMTP/IMAP and credentials.
 - AI response does not appear: check agent and LLM provider.
 
-## Suggested illustrations
-
-### Email Accounts
-![Email Accounts](../../images/helios/en/inbox/inbox-email-accounts.png)
-
-### Email Detail
-![Email Detail](../../images/helios/en/inbox/inbox-email-detail.png)

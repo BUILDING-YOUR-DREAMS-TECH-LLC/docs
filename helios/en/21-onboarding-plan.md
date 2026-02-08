@@ -31,7 +31,3 @@ Path: /app/{tenant}/onboarding/plan
 - Check limits before choosing the plan.
 - Consider using trial if it is enabled.
 
-## Suggested illustrations
-
-### Plan Selector
-![Plan Selector](../../images/helios/en/onboarding/onboarding-plan-selector.png)

@@ -121,12 +121,3 @@ Campos:
 
 - 22-twilio-setup.md
 - 09-tools.md
-
-## Ilustraciones sugeridas
-
-### Tarjeta Twilio
-![Tarjeta Twilio](../../images/helios/es/integrations/twilio-card-redacted.png)
-
-### Webhooks
-![Webhooks](../../images/helios/es/integrations/integration-webhooks-list.png)
-

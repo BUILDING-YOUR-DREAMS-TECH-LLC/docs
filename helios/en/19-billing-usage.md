@@ -46,7 +46,3 @@ Actions:
 - 15-settings-general.md
 - 21-onboarding-plan.md
 
-## Suggested illustrations
-
-### Billing & Usage
-![Billing & Usage](../../images/helios/en/billing/billing-usage-meters.png)

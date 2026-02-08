@@ -51,9 +51,3 @@ Campos:
 
 - 08-integrations.md
 - 03-agents.md
-
-## Ilustraciones sugeridas
-
-### Estado de API Keys
-![Estado de API Keys](../../images/helios/es/settings-api-keys/settings-api-keys-status.png)
-

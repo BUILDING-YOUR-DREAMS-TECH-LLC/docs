@@ -56,7 +56,3 @@ Notes:
 - Use viewer for read-only access.
 - Deactivate users who do not require access.
 
-## Suggested illustrations
-
-### Team Members
-![Team Members](../../images/helios/en/team/team-members-list.png)

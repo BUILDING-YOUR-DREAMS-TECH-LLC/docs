@@ -49,6 +49,8 @@ Selecciona uno o varios canales. Nota: si activas Voice, el formulario desactiva
 - Web Chat: widget web.
 - Voice: telefonia (requiere Voice Agents + Twilio).
 
+![Creación de Agente - Paso 2 (Canales)](../../images/helios/es/agents/create-agent-step2.png)
+
 ### Paso 3: Agent Capabilities
 
 Opciones:
@@ -99,6 +101,8 @@ Acciones:
 
 - Next para avanzar.
 - Create Agent para guardar.
+
+![Configuración de IA](../../images/helios/es/agents/ai-config-tab.png)
 
 ## Editar un agent
 
@@ -168,10 +172,3 @@ En la card del agent, usa Delete. Confirma la accion.
 - RAG desactivado: falta Google key o documentos.
 - SQL desactivado: no hay tablas.
 
-## Ilustraciones sugeridas
-
-### Creación de Agente - Paso 2 (Canales)
-![Creación de Agente - Paso 2 (Canales)](../../images/helios/es/agents/create-agent-step2.png)
-
-### Configuración de IA
-![Configuración de IA](../../images/helios/es/agents/ai-config-tab.png)

@@ -36,6 +36,8 @@ Campos:
 | Assigned Agent | Si (si Active) | seleccion | Support Agent | Debe tener WhatsApp habilitado |
 | Active | No | checkbox | ON | Si esta activo, requiere agent |
 
+![Conectar Nuevo Número](../../images/helios/es/whatsapp/whatsapp-connect-modal.png)
+
 ### Twilio (recomendado)
 
 - Requiere Twilio conectado en Integrations.
@@ -111,7 +113,3 @@ Funciones:
 - 08-integrations.md
 - 03-agents.md
 
-## Ilustraciones sugeridas
-
-### Conectar Nuevo Número
-![Conectar Nuevo Número](../../images/helios/es/whatsapp/whatsapp-connect-modal.png)

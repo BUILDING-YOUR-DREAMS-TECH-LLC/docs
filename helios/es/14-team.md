@@ -55,9 +55,3 @@ Notas:
 
 - Usa viewer para acceso de solo lectura.
 - Desactiva usuarios que no requieran acceso.
-
-## Ilustraciones sugeridas
-
-### Miembros del Equipo
-![Miembros del Equipo](../../images/helios/es/team/team-members-list.png)
-

@@ -200,17 +200,3 @@ El agente ahora podrá responder preguntas sobre esas tablas en conversaciones d
 - [09-tools.md](./09-tools.md) - Herramientas disponibles
 
 ---
-
-## Capturas sugeridas
-
-### Vista Principal
-![Vista Principal](../../images/helios/es/data-tables/datatables-main-stats.png)
-
-### Crear Tabla
-![Crear Tabla](../../images/helios/es/data-tables/datatables-create-modal.png)
-
-### Vista de Datos
-![Vista de Datos](../../images/helios/es/data-tables/datatables-view-data.png)
-
-### Consulta en Lenguaje Natural
-![Consulta NL](../../images/helios/es/data-tables/datatables-nl-query.png)

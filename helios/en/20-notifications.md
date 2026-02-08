@@ -30,7 +30,3 @@ Path: /app/{tenant}/notifications
 - Check Unread daily for escalations.
 - Use filters to isolate a channel.
 
-## Suggested illustrations
-
-### Notification List
-![Notification List](../../images/helios/en/notifications/notifications-list-filters.png)

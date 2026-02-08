@@ -25,6 +25,8 @@ Este documento resume como navegar el Portal del Cliente y como se conectan los 
 - Notifications: alertas del sistema y canales.
 - Onboarding/Plan: seleccion de plan.
 
+![Sidebar con todos los módulos](../../images/helios/es/overview/sidebar-full.png)
+
 ## Flujo general recomendado
 
 1. Configurar Integrations (OpenAI/Google/Twilio).
@@ -40,9 +42,4 @@ Este documento resume como navegar el Portal del Cliente y como se conectan los 
 - La UI usa etiquetas en ingles. En estos manuales se mantienen tal cual.
 - Los pasos se describen como rutas dentro del portal.
 - Cuando un modulo requiere integraciones externas se indica en requisitos.
-
-## Ilustraciones sugeridas
-
-### Sidebar con todos los módulos
-![Sidebar con todos los módulos](../../images/helios/es/overview/sidebar-full.png)
 

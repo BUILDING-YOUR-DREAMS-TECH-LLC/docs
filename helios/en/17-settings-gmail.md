@@ -45,7 +45,3 @@ On each account:
 - 04-inbox-email.md
 - 08-integrations.md
 
-## Suggested illustrations
-
-### Gmail Accounts
-![Gmail Accounts](../../images/helios/en/settings-gmail/settings-gmail-list.png)

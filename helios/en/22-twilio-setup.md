@@ -78,7 +78,3 @@ Set up the webhook in Twilio:
 - Invalid signature: Check saved Auth Token.
 - Number does not appear: check that it is active in Twilio.
 
-## Suggested illustrations
-
-- Capture of the Twilio Console with Account SID/Auth Token.
-- Webhook configuration capture.

@@ -56,10 +56,3 @@ Fields:
 - Maintain updated status (lead, active, customer).
 - Complete Phone and Email for quick contact.
 
-## Suggested illustrations
-
-### Add Contact
-![Add Contact](../../images/helios/en/contacts/contacts-add-modal.png)
-
-### Contacts List
-![Contacts List](../../images/helios/en/contacts/contacts-list.png)

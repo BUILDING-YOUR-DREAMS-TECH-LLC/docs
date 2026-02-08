@@ -49,6 +49,8 @@ Select one or more channels. Note: If you enable Voice, the form disables Email/
 - Web Chat: web widget.
 - Voice: telephony (requires Voice Agents + Twilio).
 
+![Create Agent - Step 2 (Channels)](../../images/helios/en/agents/create-agent-step2.png)
+
 ### Step 3: Agent Capabilities
 
 Options:
@@ -99,6 +101,8 @@ Actions:
 
 - Next to advance.
 - Create Agent to save.
+
+![AI Configuration](../../images/helios/en/agents/ai-config-tab.png)
 
 ## Edit an agent
 
@@ -166,10 +170,3 @@ On the agent card, use Delete. Confirm the action.
 - RAG disabled: Google key or documents missing.
 - SQL disabled: no tables.
 
-## Suggested illustrations
-
-### Create Agent - Step 2 (Channels)
-![Create Agent - Step 2 (Channels)](../../images/helios/en/agents/create-agent-step2.png)
-
-### AI Configuration
-![AI Configuration](../../images/helios/en/agents/ai-config-tab.png)

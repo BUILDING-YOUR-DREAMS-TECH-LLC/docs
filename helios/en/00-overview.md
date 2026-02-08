@@ -25,6 +25,8 @@ This document summarizes how to navigate the Customer Portal and how the modules
 - Notifications: system alerts and channels.
 - Onboarding/Plan: plan selection.
 
+![Sidebar with all modules](../../images/helios/en/overview/sidebar-full.png)
+
 ## Recommended general flow
 
 1. Configure Integrations (OpenAI/Google/Twilio).
@@ -41,7 +43,3 @@ This document summarizes how to navigate the Customer Portal and how the modules
 - Steps are described as routes within the portal.
 - When a module requires external integrations, it is indicated in requirements.
 
-## Suggested illustrations
-
-### Sidebar with all modules
-![Sidebar with all modules](../../images/helios/en/overview/sidebar-full.png)

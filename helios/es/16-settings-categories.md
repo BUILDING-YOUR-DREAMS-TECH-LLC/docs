@@ -50,9 +50,3 @@ Campos:
 ## Relacionados
 
 - 04-inbox-email.md
-
-## Ilustraciones sugeridas
-
-### Formulario de Categoría
-![Formulario de Categoría](../../images/helios/es/settings-categories/settings-category-form.png)
-

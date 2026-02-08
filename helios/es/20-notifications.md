@@ -29,9 +29,3 @@ Ruta: /app/{tenant}/notifications
 
 - Revisa Unread diariamente para escalamientos.
 - Usa filtros para aislar un canal.
-
-## Ilustraciones sugeridas
-
-### Lista de Notificaciones
-![Lista de Notificaciones](../../images/helios/es/notifications/notifications-list-filters.png)
-

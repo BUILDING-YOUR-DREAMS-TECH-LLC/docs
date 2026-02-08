@@ -37,9 +37,3 @@ Ruta: /app/{tenant}/analytics
 
 - Usa Analytics para validar el impacto de automatizaciones.
 - Revisa picos de pending review en Email.
-
-## Ilustraciones sugeridas
-
-### Dashboard de Analítica
-![Dashboard Analítica](../../images/helios/es/analytics/analytics-dashboard.png)
-

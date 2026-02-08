@@ -47,7 +47,3 @@ The page shows:
 - 19-billing-usage.md
 - 18-settings-api-keys.md
 
-## Suggested illustrations
-
-### General Settings
-![General Settings](../../images/helios/en/settings-general/settings-general-form.png)

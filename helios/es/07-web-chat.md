@@ -58,12 +58,3 @@ Notas:
 ## Relacionados
 
 - 23-web-chat-widget.md (instalacion del widget)
-
-## Ilustraciones sugeridas
-
-### Lista de Conversaciones
-![Lista de Conversaciones](../../images/helios/es/web-chat/web-chat-list.png)
-
-### Detalle de Conversación
-![Detalle de Conversación](../../images/helios/es/web-chat/web-chat-detail.png)
-

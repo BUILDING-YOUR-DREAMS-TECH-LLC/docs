@@ -105,6 +105,8 @@ En la lista de cuentas puedes:
 - Delete.
 - Edit (abre Email Configuration).
 
+![Cuentas de Email](../../images/helios/es/inbox/inbox-email-accounts.png)
+
 ## Email Configuration (por cuenta)
 
 Ruta rapida: Inbox -> card de cuenta -> Edit
@@ -206,6 +208,8 @@ Notas importantes:
 - Si Auto-reply blocked, el sistema desactiva IA y pide confirmacion para enviar.
 - Para enviar, el campo de respuesta no debe estar vacio.
 
+![Detalle de Email](../../images/helios/es/inbox/inbox-email-detail.png)
+
 ## Buenas practicas
 
 - Asigna un agent a cada cuenta antes de activar IA.
@@ -218,12 +222,4 @@ Notas importantes:
 - Reconnect required en Gmail: reconecta el OAuth desde la tarjeta.
 - Verify falla: revisa SMTP/IMAP y credenciales.
 - AI response no aparece: revisa agent y proveedor LLM.
-
-## Ilustraciones sugeridas
-
-### Cuentas de Email
-![Cuentas de Email](../../images/helios/es/inbox/inbox-email-accounts.png)
-
-### Detalle de Email
-![Detalle de Email](../../images/helios/es/inbox/inbox-email-detail.png)
 

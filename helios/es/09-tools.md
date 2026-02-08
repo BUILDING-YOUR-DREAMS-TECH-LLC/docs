@@ -82,9 +82,3 @@ En la lista puedes:
 
 - 08-integrations.md
 - 03-agents.md (seleccion de tools)
-
-## Ilustraciones sugeridas
-
-### Crear Herramienta (API Request)
-![Crear Herramienta](../../images/helios/es/tools/tool-create-modal.png)
-

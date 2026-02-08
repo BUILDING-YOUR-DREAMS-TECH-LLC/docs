@@ -31,6 +31,8 @@ El Dashboard muestra:
 
 Tambien muestra tarjetas con enlaces rapidos a modulos principales.
 
+![Dashboard con métricas](../../images/helios/es/dashboard/dashboard-main.png)
+
 ## Acciones principales
 
 - Click en una tarjeta para ir al modulo correspondiente.
@@ -41,7 +43,3 @@ Tambien muestra tarjetas con enlaces rapidos a modulos principales.
 - Si las metricas estan en cero, revisa Integrations y Agents primero.
 - Usa el Dashboard para validar que los canales estan activos.
 
-## Ilustraciones sugeridas
-
-### Dashboard con métricas
-![Dashboard con métricas](../../images/helios/es/dashboard/dashboard-main.png)

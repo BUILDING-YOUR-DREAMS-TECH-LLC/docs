@@ -69,11 +69,3 @@ En la lista, pulsa el icono de delete y confirma.
 ## Relacionados
 
 - 03-agents.md (RAG)
-
-## Ilustraciones sugeridas
-
-### Subir Documento
-![Subir Documento](../../images/helios/es/documents/documents-upload-modal.png)
-
-### Lista de Documentos
-![Lista de Documentos](../../images/helios/es/documents/documents-list.png)

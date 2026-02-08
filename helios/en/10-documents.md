@@ -70,10 +70,3 @@ In the list, press the delete icon and confirm.
 
 - 03-agents.md (RAG)
 
-## Suggested illustrations
-
-### Upload Document
-![Upload Document](../../images/helios/en/documents/documents-upload-modal.png)
-
-### Document List
-![Document List](../../images/helios/en/documents/documents-list.png)
