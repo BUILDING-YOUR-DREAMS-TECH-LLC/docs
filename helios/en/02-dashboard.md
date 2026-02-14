@@ -31,7 +31,7 @@ The Dashboard shows:
 
 It also displays cards with quick links to main modules.
 
-![Dashboard with metrics](../../images/helios/es/dashboard/dashboard-main.png)
+![Dashboard with metrics](../../images/helios/en/dashboard/dashboard-main.png)
 
 ## Main actions
 
@@ -42,4 +42,3 @@ It also displays cards with quick links to main modules.
 
 - If the metrics are at zero, check Integrations and Agents first.
 - Use the Dashboard to validate that the channels are active.
-

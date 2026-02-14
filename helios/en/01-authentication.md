@@ -33,7 +33,7 @@ Fields:
 | Email | Yes | valid email | name@company.com | It is used for authentication |
 | Password | Yes | minimum 8 characters | ******** | - |
 
-![Login with Google and Email](../../images/helios/es/auth/login-form.png)
+![Login with Google and Email](../../images/helios/en/auth/login-form.png)
 
 ## Create account (signup)
 
@@ -58,7 +58,7 @@ Notes:
 - If you choose Google OAuth, the flow can redirect to /auth/complete to complete tenant data.
 - The subdomain must be unique.
 
-![Signup with subdomain](../../images/helios/es/auth/signup-form.png)
+![Signup with subdomain](../../images/helios/en/auth/signup-form.png)
 
 ## Complete account (OAuth)
 
@@ -112,4 +112,3 @@ Reset fields:
 ## Log out
 
 Use the user menu in the sidebar (or the Sign out option) to log out.
-
