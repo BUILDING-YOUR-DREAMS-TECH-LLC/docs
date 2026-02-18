@@ -54,5 +54,5 @@ Campos:
 
 ## Relacionados
 
-- [08-integrations.md](./08-integrations.md)
-- [03-agents.md](./03-agents.md)
+- [Integraciones](/helios/es/08-integrations)
+- [Agentes de IA](/helios/es/03-agents)

@@ -47,5 +47,5 @@ En cada cuenta:
 
 ## Relacionados
 
-- [04-inbox-email.md](./04-inbox-email.md)
-- [08-integrations.md](./08-integrations.md)
+- [Bandeja de entrada (Email)](/helios/es/04-inbox-email)
+- [Integraciones](/helios/es/08-integrations)

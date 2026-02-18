@@ -201,7 +201,7 @@ The agent will now be able to answer questions about those tables in chat, email
 
 ## Related
 
-- [03-agents.md](./03-agents.md) - Agent configuration
-- [09-tools.md](./09-tools.md) - Available tools
+- [AI Agents](/helios/en/03-agents) - Agent configuration
+- [Tools & Functions](/helios/en/09-tools) - Available tools
 
 ---

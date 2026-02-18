@@ -73,5 +73,5 @@ In the list, press the delete icon and confirm.
 
 ## Related
 
-- [03-agents.md](./03-agents.md) (RAG)
+- [AI Agents](/helios/en/03-agents) (RAG)
 

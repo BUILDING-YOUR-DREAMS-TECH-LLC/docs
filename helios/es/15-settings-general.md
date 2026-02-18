@@ -49,5 +49,5 @@ La pagina muestra:
 
 ## Relacionados
 
-- [19-billing-usage.md](./19-billing-usage.md)
-- [18-settings-api-keys.md](./18-settings-api-keys.md)
+- [Facturación y uso](/helios/es/19-billing-usage)
+- [Claves API (BYOK)](/helios/es/18-settings-api-keys)

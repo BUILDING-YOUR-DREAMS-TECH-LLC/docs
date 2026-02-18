@@ -62,5 +62,5 @@ Notes:
 
 ## Related
 
-- [23-web-chat-widget.md](./23-web-chat-widget.md) (widget installation)
+- [Web Chat Widget (Embed)](/helios/en/23-web-chat-widget) (widget installation)
 

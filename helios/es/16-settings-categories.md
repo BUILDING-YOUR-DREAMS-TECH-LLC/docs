@@ -54,4 +54,4 @@ Campos:
 
 ## Relacionados
 
-- [04-inbox-email.md](./04-inbox-email.md)
+- [Bandeja de entrada (Email)](/helios/es/04-inbox-email)

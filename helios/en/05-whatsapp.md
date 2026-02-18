@@ -109,7 +109,7 @@ Features:
 
 ## Related
 
-- [22-twilio-setup.md](./22-twilio-setup.md)
-- [08-integrations.md](./08-integrations.md)
-- [03-agents.md](./03-agents.md)
+- [Twilio Setup (WhatsApp + Voice)](/helios/en/22-twilio-setup)
+- [Integrations](/helios/en/08-integrations)
+- [AI Agents](/helios/en/03-agents)
 

@@ -54,5 +54,5 @@ Fields:
 
 ## Related
 
-- [04-inbox-email.md](./04-inbox-email.md)
+- [Inbox (Email)](/helios/en/04-inbox-email)
 

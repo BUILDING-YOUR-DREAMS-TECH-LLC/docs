@@ -62,4 +62,4 @@ Notas:
 
 ## Relacionados
 
-- [23-web-chat-widget.md](./23-web-chat-widget.md) (instalacion del widget)
+- [Widget de Chat Web (Incrustar)](/helios/es/23-web-chat-widget) (instalacion del widget)

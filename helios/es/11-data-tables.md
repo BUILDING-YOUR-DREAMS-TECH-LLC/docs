@@ -201,7 +201,7 @@ El agente ahora podrá responder preguntas sobre esas tablas en conversaciones d
 
 ## Relacionados
 
-- [03-agents.md](./03-agents.md) - Configuración de agentes
-- [09-tools.md](./09-tools.md) - Herramientas disponibles
+- [Agentes de IA](/helios/es/03-agents) - Configuración de agentes
+- [Herramientas y funciones](/helios/es/09-tools) - Herramientas disponibles
 
 ---

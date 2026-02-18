@@ -85,5 +85,5 @@ En la lista puedes:
 
 ## Relacionados
 
-- [08-integrations.md](./08-integrations.md)
-- [03-agents.md](./03-agents.md) (seleccion de tools)
+- [Integraciones](/helios/es/08-integrations)
+- [Agentes de IA](/helios/es/03-agents) (seleccion de tools)

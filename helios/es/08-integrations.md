@@ -124,5 +124,5 @@ Campos:
 
 ## Relacionados
 
-- [22-twilio-setup.md](./22-twilio-setup.md)
-- [09-tools.md](./09-tools.md)
+- [Configuración de Twilio (WhatsApp + Voz)](/helios/es/22-twilio-setup)
+- [Herramientas y funciones](/helios/es/09-tools)

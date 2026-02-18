@@ -48,5 +48,5 @@ Acciones:
 
 ## Relacionados
 
-- [15-settings-general.md](./15-settings-general.md)
-- [21-onboarding-plan.md](./21-onboarding-plan.md)
+- [Configuración (General)](/helios/es/15-settings-general)
+- [Onboarding - Plan](/helios/es/21-onboarding-plan)
