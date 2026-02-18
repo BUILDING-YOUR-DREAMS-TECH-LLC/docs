@@ -119,6 +119,6 @@ Fields:
 
 ## Related
 
-- 22-twilio-setup.md
-- 09-tools.md
+- [22-twilio-setup.md](./22-twilio-setup.md)
+- [09-tools.md](./09-tools.md)
 

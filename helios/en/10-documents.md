@@ -68,5 +68,5 @@ In the list, press the delete icon and confirm.
 
 ## Related
 
-- 03-agents.md (RAG)
+- [03-agents.md](./03-agents.md) (RAG)
 

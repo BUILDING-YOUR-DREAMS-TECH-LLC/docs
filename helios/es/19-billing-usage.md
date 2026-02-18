@@ -43,5 +43,5 @@ Acciones:
 
 ## Relacionados
 
-- 15-settings-general.md
-- 21-onboarding-plan.md
+- [15-settings-general.md](./15-settings-general.md)
+- [21-onboarding-plan.md](./21-onboarding-plan.md)

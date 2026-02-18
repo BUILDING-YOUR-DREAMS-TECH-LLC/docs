@@ -57,5 +57,5 @@ Notes:
 
 ## Related
 
-- 23-web-chat-widget.md (widget installation)
+- [23-web-chat-widget.md](./23-web-chat-widget.md) (widget installation)
 

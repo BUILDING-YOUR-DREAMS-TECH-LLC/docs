@@ -80,6 +80,6 @@ In the list you can:
 
 ## Related
 
-- 08-integrations.md
-- 03-agents.md (tool selection)
+- [08-integrations.md](./08-integrations.md)
+- [03-agents.md](./03-agents.md) (tool selection)
 

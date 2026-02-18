@@ -109,7 +109,7 @@ Funciones:
 
 ## Relacionados
 
-- 22-twilio-setup.md
-- 08-integrations.md
-- 03-agents.md
+- [22-twilio-setup.md](./22-twilio-setup.md)
+- [08-integrations.md](./08-integrations.md)
+- [03-agents.md](./03-agents.md)
 

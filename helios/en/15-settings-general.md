@@ -44,6 +44,6 @@ The page shows:
 
 ## Related
 
-- 19-billing-usage.md
-- 18-settings-api-keys.md
+- [19-billing-usage.md](./19-billing-usage.md)
+- [18-settings-api-keys.md](./18-settings-api-keys.md)
 

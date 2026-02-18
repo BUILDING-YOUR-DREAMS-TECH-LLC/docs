@@ -49,6 +49,6 @@ Fields:
 
 ## Related
 
-- 08-integrations.md
-- 03-agents.md
+- [08-integrations.md](./08-integrations.md)
+- [03-agents.md](./03-agents.md)
 
