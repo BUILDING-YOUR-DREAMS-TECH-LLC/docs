@@ -47,7 +47,7 @@ Path: `/app/{tenant}/sql-tables`
 
 | Type | Description | Example |
 |------|-------------|---------|
-| TEXT | Free text | "Juan García", "ABC123" |
+| TEXT | Free text | "John Smith", "ABC123" |
 | NUMBER | Whole numbers or decimals | 100, 99.99 |
 | BOOLEAN | True/False | true, false |
 | DATE | Date only | 2024-01-15 |
@@ -79,9 +79,9 @@ Notes by type:
 
 ---
 
-## Consultations in Natural Language
+## Natural Language Queries
 
-This is the most powerful feature of Data Tables. Write a question in Spanish or English and the agent translates it into a query.
+This is the most powerful feature of Data Tables. Write a question in English or Spanish and the agent translates it into a SQL query.
 
 ### Queries that work very well
 
@@ -101,7 +101,7 @@ This is the most powerful feature of Data Tables. Write a question in Spanish or
 | | "Find customers from Mexico" |
 | **Filter by date** | "Orders for January 2024" |
 | | "Orders after January 1st, 2024" |
-| **Sort results** | "Shows the last 10 orders ordered by date" |
+| **Sort results** | "Show the last 10 orders sorted by date" |
 | | "Show orders sorted by amount descending" |
 | **Combinations** | "What is the total sales for orders over $50?" |
 | | "Average price of products added this month" |
@@ -110,29 +110,31 @@ This is the most powerful feature of Data Tables. Write a question in Spanish or
 
 #### For an Orders table
 ```
-"¿Cuántos pedidos hay en total?"
-"¿Cuál es el monto total de ventas?"
-"Muestra los pedidos mayores a $500"
-"Pedidos del último mes ordenados por fecha"
-"¿Cuál es el pedido más grande?"
+"How many orders are there in total?"
+"What is the total sales amount?"
+"Show orders over $500"
+"Orders from the last month sorted by date"
+"What is the largest order?"
 ```
 
 #### For a Customers table
 ```
-"¿Cuántos clientes tenemos?"
-"Clientes de México"
-"Clientes registrados después del 1 de enero"
-"Muestra los últimos 5 clientes agregados"
+"How many customers do we have?"
+"Customers from Mexico"
+"Customers registered after January 1st"
+"Show the last 5 customers added"
 ```
 
 #### For a Products table
 ```
-"¿Cuántos productos hay?"
-"¿Cuál es el precio promedio?"
-"Productos con precio mayor a $100"
-"Producto más caro"
-"Producto más barato"
-```### Features not supported (yet)
+"How many products are there?"
+"What is the average price?"
+"Products with a price above $100"
+"Most expensive product"
+"Cheapest product"
+```
+
+### Features not supported (yet)
 
 | Operation | Status | Note |
 |-----------|--------|------|
@@ -198,4 +200,3 @@ The agent will now be able to answer questions about those tables in chat, email
 - [09-tools.md](./09-tools.md) - Available tools
 
 ---
-

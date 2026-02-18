@@ -8,7 +8,7 @@ Crear tablas de datos estructurados que tus agentes de IA pueden consultar usand
 
 ## Acceso
 
-Sidebar -> Data Tables
+Menú lateral -> Tablas de datos
 Ruta: `/app/{tenant}/sql-tables`
 
 ## Roles con acceso
@@ -29,19 +29,19 @@ Ruta: `/app/{tenant}/sql-tables`
 
 ## Crear una tabla
 
-1. Pulsa **Create Table**
+1. Pulsa **Crear tabla**
 2. Completa el formulario
-3. Pulsa **Create Table**
+3. Pulsa **Crear tabla**
 
 ### Campos del formulario
 
 | Campo | Obligatorio | Formato | Ejemplo | Nota |
 |-------|-------------|---------|---------|------|
-| Table Name (Internal) | Sí | minúsculas + _ | customer_orders | Identificador interno |
-| Display Name | Sí | texto | Customer Orders | Visible en UI |
-| Description | No | texto | Pedidos de clientes | Ayuda a los agentes |
-| Schema | Sí | lista de campos | order_id: TEXT | Define estructura |
-| Allowed Operations | Sí | selección múltiple | SELECT, INSERT | Limita operaciones |
+| Nombre de tabla (interno) | Sí | minúsculas + _ | pedidos_clientes | Identificador interno |
+| Nombre visible | Sí | texto | Pedidos de clientes | Visible en la interfaz |
+| Descripción | No | texto | Pedidos de clientes | Ayuda a los agentes |
+| Esquema | Sí | lista de campos | pedido_id: TEXT | Define la estructura |
+| Operaciones permitidas | Sí | selección múltiple | SELECT, INSERT | Limita operaciones |
 
 ### Tipos de campo disponibles
 
@@ -61,54 +61,54 @@ Ruta: `/app/{tenant}/sql-tables/{id}`
 
 ### Funciones disponibles
 
-- **Add Row**: Agregar un nuevo registro
-- **Edit Row**: Editar un registro existente
-- **Delete Row**: Eliminar un registro
-- **Natural Language Query**: Consultar con IA
+- **Agregar fila**: Agregar un nuevo registro
+- **Editar fila**: Editar un registro existente
+- **Eliminar fila**: Eliminar un registro
+- **Consulta en lenguaje natural**: Consultar con IA
 - **Paginación**: Navegar entre páginas de datos
 
-### Agregar una fila (Add Row)
+### Agregar una fila
 
-El formulario genera un campo por cada columna del schema.
+El formulario genera un campo por cada columna del esquema.
 
 Notas por tipo:
 - **NUMBER**: Acepta números decimales (ej: 99.99)
-- **BOOLEAN**: Selector Yes/No
+- **BOOLEAN**: Selector Sí/No
 - **DATE**: Selector de fecha
 - **TIMESTAMP**: Selector de fecha y hora
 
 ---
 
-## Consultas en Lenguaje Natural
+## Consultas en lenguaje natural
 
-Esta es la característica más poderosa de Data Tables. Escribe una pregunta en español o inglés y el agente la traduce a una consulta.
+Esta es la característica más poderosa de Tablas de datos. Escribe una pregunta en español o inglés y el agente la traduce a una consulta.
 
 ### Consultas que funcionan muy bien
 
 | Tipo | Ejemplo de pregunta |
 |------|---------------------|
 | **Contar registros** | "¿Cuántos clientes tengo?" |
-| | "How many orders are there?" |
+| | "¿Cuántos pedidos hay?" |
 | **Suma (SUM)** | "¿Cuál es el total de ventas?" |
-| | "What is the total revenue?" |
+| | "¿Cuál es el ingreso total?" |
 | **Promedio (AVG)** | "¿Cuál es el valor promedio de los pedidos?" |
-| | "What is the average order value?" |
+| | "¿Cuál es el valor promedio por pedido?" |
 | **Máximo (MAX)** | "¿Cuál es la venta más alta?" |
-| | "What is the highest sale amount?" |
+| | "¿Cuál es el monto de venta más alto?" |
 | **Mínimo (MIN)** | "¿Cuál es el pedido más pequeño?" |
-| | "What is the minimum order?" |
+| | "¿Cuál es el pedido mínimo?" |
 | **Filtrar por valor** | "Muestra pedidos mayores a $100" |
-| | "Find customers from Mexico" |
+| | "Busca clientes de México" |
 | **Filtrar por fecha** | "Pedidos de enero 2024" |
-| | "Orders after January 1st, 2024" |
+| | "Pedidos después del 1 de enero de 2024" |
 | **Ordenar resultados** | "Muestra los últimos 10 pedidos ordenados por fecha" |
-| | "Show orders sorted by amount descending" |
+| | "Muestra pedidos ordenados por monto de mayor a menor" |
 | **Combinaciones** | "¿Cuál es el total de ventas de pedidos mayores a $50?" |
-| | "Average price of products added this month" |
+| | "Precio promedio de productos agregados este mes" |
 
 ### Ejemplos prácticos por caso de uso
 
-#### Para una tabla de Pedidos (Orders)
+#### Para una tabla de Pedidos
 ```
 "¿Cuántos pedidos hay en total?"
 "¿Cuál es el monto total de ventas?"
@@ -117,7 +117,7 @@ Esta es la característica más poderosa de Data Tables. Escribe una pregunta en
 "¿Cuál es el pedido más grande?"
 ```
 
-#### Para una tabla de Clientes (Customers)
+#### Para una tabla de Clientes
 ```
 "¿Cuántos clientes tenemos?"
 "Clientes de México"
@@ -125,7 +125,7 @@ Esta es la característica más poderosa de Data Tables. Escribe una pregunta en
 "Muestra los últimos 5 clientes agregados"
 ```
 
-#### Para una tabla de Productos (Products)
+#### Para una tabla de Productos
 ```
 "¿Cuántos productos hay?"
 "¿Cuál es el precio promedio?"
@@ -140,7 +140,7 @@ Esta es la característica más poderosa de Data Tables. Escribe una pregunta en
 |-----------|--------|------|
 | GROUP BY | En desarrollo | "Ventas por región" no funciona aún |
 | JOIN | No soportado | No se pueden relacionar tablas |
-| OR conditions | No soportado | Solo AND para combinar filtros |
+| Condiciones OR | No soportado | Solo AND para combinar filtros |
 | Subconsultas | No soportado | Consultas simples solamente |
 
 ### Notas técnicas
@@ -156,8 +156,8 @@ Esta es la característica más poderosa de Data Tables. Escribe una pregunta en
 
 Para que un agente pueda consultar una tabla:
 
-1. Ve a **Agents** -> selecciona el agente
-2. En la sección **Tools**, activa **Data Tables**
+1. Ve a **Agentes** -> selecciona el agente
+2. En la sección **Herramientas**, activa **Tablas de datos**
 3. Selecciona las tablas que el agente puede consultar
 4. Guarda los cambios
 
@@ -185,12 +185,12 @@ El agente ahora podrá responder preguntas sobre esas tablas en conversaciones d
 ### "Error en la consulta"
 - Evita usar OR en tus preguntas
 - No pidas agrupar por categoría (GROUP BY)
-- Asegúrate de que los campos existen en el schema
+- Asegúrate de que los campos existen en el esquema
 
 ### El agente no responde sobre la tabla
 - Verifica que la tabla está asignada al agente
-- Confirma que el agente tiene el tool "Data Tables" habilitado
-- Revisa que "Allowed Operations" incluya SELECT
+- Confirma que el agente tiene la herramienta "Tablas de datos" habilitada
+- Revisa que "Operaciones permitidas" incluya SELECT
 
 ---
 
