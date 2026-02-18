@@ -42,6 +42,11 @@ The page shows:
 - Adjust Timezone before configuring reports.
 - Check limits if any module fails due to quota.
 
+
+## Screenshot
+
+![General Settings](../../images/helios/en/screenshots/settings-01-general.png)
+
 ## Related
 
 - [19-billing-usage.md](./19-billing-usage.md)

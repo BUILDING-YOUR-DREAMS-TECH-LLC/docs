@@ -42,6 +42,11 @@ La pagina muestra:
 - Ajusta Timezone antes de configurar reportes.
 - Revisa limites si algun modulo falla por cuota.
 
+
+## Captura
+
+![Configuración General](../../images/helios/es/screenshots/settings-01-general.png)
+
 ## Relacionados
 
 - [19-billing-usage.md](./19-billing-usage.md)

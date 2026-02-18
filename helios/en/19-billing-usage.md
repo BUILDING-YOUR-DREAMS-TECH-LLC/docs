@@ -41,6 +41,11 @@ Actions:
 - Check limits before enabling more channels.
 - If you are close to the limit, consider upgrading.
 
+
+## Screenshot
+
+![Billing and Usage](../../images/helios/en/screenshots/billing-01-usage.png)
+
 ## Related
 
 - [15-settings-general.md](./15-settings-general.md)

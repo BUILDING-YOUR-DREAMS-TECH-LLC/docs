@@ -194,6 +194,11 @@ The agent will now be able to answer questions about those tables in chat, email
 
 ---
 
+
+## Screenshot
+
+![Data Tables List](../../images/helios/en/screenshots/sql-01-list.png)
+
 ## Related
 
 - [03-agents.md](./03-agents.md) - Agent configuration

@@ -117,6 +117,11 @@ Campos:
 - Conecta OpenAI o Google antes de crear agents.
 - Usa Webhooks para acciones externas (N8N, Make).
 
+
+## Captura
+
+![Resumen de Integraciones](../../images/helios/es/screenshots/integrations-01-overview.png)
+
 ## Relacionados
 
 - [22-twilio-setup.md](./22-twilio-setup.md)

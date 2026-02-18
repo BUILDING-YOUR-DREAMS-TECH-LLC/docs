@@ -194,6 +194,11 @@ El agente ahora podrá responder preguntas sobre esas tablas en conversaciones d
 
 ---
 
+
+## Captura
+
+![Lista de Tablas de Datos](../../images/helios/es/screenshots/sql-01-list.png)
+
 ## Relacionados
 
 - [03-agents.md](./03-agents.md) - Configuración de agentes

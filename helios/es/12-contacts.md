@@ -55,3 +55,7 @@ Campos:
 
 - Mantener status actualizado (lead, active, customer).
 - Completar Phone y Email para contacto rapido.
+## Captura
+
+![Lista de Contactos](../../images/helios/es/screenshots/contacts-01-list.png)
+

@@ -30,4 +30,7 @@ Path: /app/{tenant}/onboarding/plan
 
 - Check limits before choosing the plan.
 - Consider using trial if it is enabled.
+## Screenshot
+
+![Onboarding Plan](../../images/helios/en/screenshots/onboarding-01-plan.png)
 

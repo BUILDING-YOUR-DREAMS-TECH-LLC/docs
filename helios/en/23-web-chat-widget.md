@@ -38,4 +38,7 @@ Install the chat widget on your website to start conversations with agents.
 
 - The agent must have Web Chat enabled in Agents.
 - If you change the agentId, new conversations will use the new agent.
+## Screenshot
+
+![Web Chat Widget](../../images/helios/en/screenshots/webchat-01-list.png)
 

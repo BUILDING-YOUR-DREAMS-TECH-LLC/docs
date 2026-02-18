@@ -55,3 +55,7 @@ Notas:
 
 - Usa viewer para acceso de solo lectura.
 - Desactiva usuarios que no requieran acceso.
+## Captura
+
+![Lista de Miembros del Equipo](../../images/helios/es/screenshots/team-01-list.png)
+

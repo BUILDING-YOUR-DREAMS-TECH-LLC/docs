@@ -66,6 +66,11 @@ En la lista, pulsa el icono de delete y confirma.
 - Define Description para guiar al agent.
 - Divide documentos largos por tema.
 
+
+## Captura
+
+![Lista de Documentos](../../images/helios/es/screenshots/documents-01-list.png)
+
 ## Relacionados
 
 - [03-agents.md](./03-agents.md) (RAG)

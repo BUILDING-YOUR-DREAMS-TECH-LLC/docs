@@ -41,6 +41,11 @@ Acciones:
 - Revisa limites antes de habilitar mas canales.
 - Si estas cerca del limite, considera upgrade.
 
+
+## Captura
+
+![Facturación y Uso](../../images/helios/es/screenshots/billing-01-usage.png)
+
 ## Relacionados
 
 - [15-settings-general.md](./15-settings-general.md)

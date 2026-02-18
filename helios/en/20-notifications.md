@@ -29,4 +29,7 @@ Path: /app/{tenant}/notifications
 
 - Check Unread daily for escalations.
 - Use filters to isolate a channel.
+## Screenshot
+
+![Notifications](../../images/helios/en/screenshots/notifications-01-list.png)
 

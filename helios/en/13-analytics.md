@@ -37,4 +37,7 @@ Path: /app/{tenant}/analytics
 
 - Use Analytics to validate the impact of automations.
 - Check pending review peaks in Email.
+## Screenshot
+
+![Analytics Dashboard](../../images/helios/en/screenshots/analytics-01-main.png)
 

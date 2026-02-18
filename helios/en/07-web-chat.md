@@ -55,6 +55,11 @@ Notes:
 - Use Transfer to Human when the user requests it.
 - Close the conversation when the topic is resolved.
 
+
+## Screenshot
+
+![Web Chat Conversations](../../images/helios/en/screenshots/webchat-01-list.png)
+
 ## Related
 
 - [23-web-chat-widget.md](./23-web-chat-widget.md) (widget installation)

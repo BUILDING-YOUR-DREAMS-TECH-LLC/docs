@@ -78,6 +78,11 @@ En la lista puedes:
 - Define Parameters Schema para evitar errores en ejecucion.
 - Documenta ejemplos en Description si es posible.
 
+
+## Captura
+
+![Lista de Herramientas](../../images/helios/es/screenshots/tools-01-list.png)
+
 ## Relacionados
 
 - [08-integrations.md](./08-integrations.md)

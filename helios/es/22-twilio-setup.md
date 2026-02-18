@@ -77,3 +77,7 @@ Configura el webhook en Twilio:
 - Webhook no llega: URL incorrecta o sin HTTPS.
 - Invalid signature: revisa Auth Token guardado.
 - Numero no aparece: revisa que este activo en Twilio.
+## Captura
+
+![Integración de Twilio](../../images/helios/es/screenshots/integrations-02-twilio.png)
+

@@ -40,6 +40,11 @@ On each account:
 - OAuth is more secure than app passwords.
 - If the token expires, reconnect the account.
 
+
+## Screenshot
+
+![Gmail Settings](../../images/helios/en/screenshots/settings-03-gmail.png)
+
 ## Related
 
 - [04-inbox-email.md](./04-inbox-email.md)

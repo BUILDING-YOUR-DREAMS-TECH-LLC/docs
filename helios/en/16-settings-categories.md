@@ -47,6 +47,11 @@ Fields:
 - Use short and clear names.
 - Define Keywords to improve classification.
 
+
+## Screenshot
+
+![Categories Settings](../../images/helios/en/screenshots/settings-02-categories.png)
+
 ## Related
 
 - [04-inbox-email.md](./04-inbox-email.md)

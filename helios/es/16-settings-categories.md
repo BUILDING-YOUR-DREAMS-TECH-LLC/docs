@@ -47,6 +47,11 @@ Campos:
 - Usa nombres cortos y claros.
 - Define Keywords para mejorar clasificacion.
 
+
+## Captura
+
+![Configuración de Categorías](../../images/helios/es/screenshots/settings-02-categories.png)
+
 ## Relacionados
 
 - [04-inbox-email.md](./04-inbox-email.md)

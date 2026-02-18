@@ -55,4 +55,7 @@ Notes:
 
 - Use viewer for read-only access.
 - Deactivate users who do not require access.
+## Screenshot
+
+![Team Members List](../../images/helios/en/screenshots/team-01-list.png)
 

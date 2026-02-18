@@ -78,6 +78,11 @@ In the list you can:
 - Define Parameters Schema to avoid errors in execution.
 - Document examples in Description if possible.
 
+
+## Screenshot
+
+![Tools List](../../images/helios/en/screenshots/tools-01-list.png)
+
 ## Related
 
 - [08-integrations.md](./08-integrations.md)

@@ -47,6 +47,11 @@ Campos:
 - Usa keys de produccion separadas de pruebas.
 - Configura limites de gasto en el proveedor.
 
+
+## Captura
+
+![Configuración de API Keys](../../images/helios/es/screenshots/settings-04-api-keys.png)
+
 ## Relacionados
 
 - [08-integrations.md](./08-integrations.md)

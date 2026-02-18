@@ -30,3 +30,7 @@ Ruta: /app/{tenant}/onboarding/plan
 
 - Revisa limites antes de elegir el plan.
 - Considera usar trial si esta habilitado.
+## Captura
+
+![Plan de Onboarding](../../images/helios/es/screenshots/onboarding-01-plan.png)
+

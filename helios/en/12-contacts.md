@@ -55,4 +55,7 @@ Fields:
 
 - Maintain updated status (lead, active, customer).
 - Complete Phone and Email for quick contact.
+## Screenshot
+
+![Contacts List](../../images/helios/en/screenshots/contacts-01-list.png)
 

@@ -66,6 +66,11 @@ In the list, press the delete icon and confirm.
 - Define Description to guide the agent.
 - Split long documents by topic.
 
+
+## Screenshot
+
+![Documents List](../../images/helios/en/screenshots/documents-01-list.png)
+
 ## Related
 
 - [03-agents.md](./03-agents.md) (RAG)
